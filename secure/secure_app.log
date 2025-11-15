@@ -1,0 +1,614 @@
+2025-11-15 15:45:29,381 - WARNING -  * Debugger is active!
+2025-11-15 15:45:29,384 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 15:46:47,248 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\app.py', reloading
+2025-11-15 15:46:49,596 - WARNING -  * Debugger is active!
+2025-11-15 15:46:49,600 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 15:48:12,503 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2025-11-15 15:48:12,503 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-15 15:48:12,512 - INFO -  * Restarting with stat
+2025-11-15 15:48:12,940 - WARNING -  * Debugger is active!
+2025-11-15 15:48:12,969 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 15:48:34,501 - INFO - 127.0.0.1 - - [15/Nov/2025 15:48:34] "[32mGET /notes HTTP/1.1[0m" 302 -
+2025-11-15 15:48:34,514 - INFO - 127.0.0.1 - - [15/Nov/2025 15:48:34] "GET /login HTTP/1.1" 200 -
+2025-11-15 15:48:36,400 - INFO - 127.0.0.1 - - [15/Nov/2025 15:48:36] "GET /login HTTP/1.1" 200 -
+2025-11-15 15:48:38,184 - INFO - 127.0.0.1 - - [15/Nov/2025 15:48:38] "[32mGET /new_note HTTP/1.1[0m" 302 -
+2025-11-15 15:48:40,079 - INFO - 127.0.0.1 - - [15/Nov/2025 15:48:40] "GET /register HTTP/1.1" 200 -
+2025-11-15 15:48:41,719 - INFO - 127.0.0.1 - - [15/Nov/2025 15:48:41] "GET / HTTP/1.1" 200 -
+2025-11-15 15:48:42,266 - INFO - 127.0.0.1 - - [15/Nov/2025 15:48:42] "GET / HTTP/1.1" 200 -
+2025-11-15 15:48:48,073 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2025-11-15 15:48:48,073 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-15 15:48:48,075 - INFO -  * Restarting with stat
+2025-11-15 15:48:48,466 - WARNING -  * Debugger is active!
+2025-11-15 15:48:48,466 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 15:49:35,679 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2025-11-15 15:49:35,679 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-15 15:49:35,679 - INFO -  * Restarting with stat
+2025-11-15 15:49:36,078 - WARNING -  * Debugger is active!
+2025-11-15 15:49:36,078 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 15:49:37,656 - INFO - 127.0.0.1 - - [15/Nov/2025 15:49:37] "GET /register HTTP/1.1" 200 -
+2025-11-15 15:49:48,092 - INFO - 127.0.0.1 - - [15/Nov/2025 15:49:48] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-11-15 15:49:57,408 - INFO - 127.0.0.1 - - [15/Nov/2025 15:49:57] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-11-15 15:50:01,447 - INFO - 127.0.0.1 - - [15/Nov/2025 15:50:01] "GET / HTTP/1.1" 200 -
+2025-11-15 15:50:02,245 - INFO - 127.0.0.1 - - [15/Nov/2025 15:50:02] "GET /register HTTP/1.1" 200 -
+2025-11-15 15:50:07,440 - INFO - 127.0.0.1 - - [15/Nov/2025 15:50:07] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-11-15 15:50:47,026 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2025-11-15 15:50:47,028 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-15 15:50:47,031 - INFO -  * Restarting with stat
+2025-11-15 15:50:47,472 - WARNING -  * Debugger is active!
+2025-11-15 15:50:47,489 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 15:51:02,096 - INFO - 127.0.0.1 - - [15/Nov/2025 15:51:02] "GET / HTTP/1.1" 200 -
+2025-11-15 15:51:02,597 - INFO - 127.0.0.1 - - [15/Nov/2025 15:51:02] "GET / HTTP/1.1" 200 -
+2025-11-15 15:51:03,370 - INFO - 127.0.0.1 - - [15/Nov/2025 15:51:03] "GET /register HTTP/1.1" 200 -
+2025-11-15 15:51:10,279 - INFO - 127.0.0.1 - - [15/Nov/2025 15:51:10] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-11-15 15:56:19,043 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2025-11-15 15:56:19,043 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-15 15:56:19,043 - INFO -  * Restarting with stat
+2025-11-15 15:56:19,443 - WARNING -  * Debugger is active!
+2025-11-15 15:56:19,443 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 15:56:23,824 - INFO - User created: ben
+2025-11-15 15:56:23,825 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:23] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 15:56:23,876 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:23] "GET /login HTTP/1.1" 200 -
+2025-11-15 15:56:31,475 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:31] "GET /register HTTP/1.1" 200 -
+2025-11-15 15:56:39,082 - INFO - User created: man
+2025-11-15 15:56:39,083 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:39] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 15:56:39,088 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:39] "GET /login HTTP/1.1" 200 -
+2025-11-15 15:56:43,933 - INFO - User logged in: man
+2025-11-15 15:56:43,935 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 15:56:43,972 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:43] "GET /notes HTTP/1.1" 200 -
+2025-11-15 15:56:45,874 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:45] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 15:56:50,717 - INFO - Note created for user 2: aa
+2025-11-15 15:56:50,718 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:50] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-15 15:56:50,729 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:50] "GET /notes HTTP/1.1" 200 -
+2025-11-15 15:56:52,110 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:52] "GET /edit_note/1 HTTP/1.1" 200 -
+2025-11-15 15:56:55,555 - INFO - Note updated: 1
+2025-11-15 15:56:55,555 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:55] "[32mPOST /edit_note/1 HTTP/1.1[0m" 302 -
+2025-11-15 15:56:55,574 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:55] "GET /notes HTTP/1.1" 200 -
+2025-11-15 15:56:56,540 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:56] "GET /edit_note/1 HTTP/1.1" 200 -
+2025-11-15 15:56:57,466 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:57] "GET /notes HTTP/1.1" 200 -
+2025-11-15 15:56:59,029 - INFO - Note deleted: 1
+2025-11-15 15:56:59,030 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:59] "[32mPOST /delete_note/1 HTTP/1.1[0m" 302 -
+2025-11-15 15:56:59,040 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:59] "GET /notes HTTP/1.1" 200 -
+2025-11-15 15:56:59,841 - INFO - 127.0.0.1 - - [15/Nov/2025 15:56:59] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 15:57:01,720 - INFO - Note created for user 2: aa
+2025-11-15 15:57:01,720 - INFO - 127.0.0.1 - - [15/Nov/2025 15:57:01] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-15 15:57:01,724 - INFO - 127.0.0.1 - - [15/Nov/2025 15:57:01] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:00:09,733 - INFO - 127.0.0.1 - - [15/Nov/2025 16:00:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-15 16:00:09,742 - INFO - 127.0.0.1 - - [15/Nov/2025 16:00:09] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:00:11,101 - INFO - 127.0.0.1 - - [15/Nov/2025 16:00:11] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:00:16,630 - INFO - User created: test' OR '1'='1
+2025-11-15 16:00:16,631 - INFO - 127.0.0.1 - - [15/Nov/2025 16:00:16] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:00:16,638 - INFO - 127.0.0.1 - - [15/Nov/2025 16:00:16] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:00:23,213 - INFO - User logged in: test' OR '1'='1
+2025-11-15 16:00:23,214 - INFO - 127.0.0.1 - - [15/Nov/2025 16:00:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:00:23,223 - INFO - 127.0.0.1 - - [15/Nov/2025 16:00:23] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:04:01,040 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\db.py', reloading
+2025-11-15 16:04:01,076 - INFO -  * Restarting with stat
+2025-11-15 16:14:51,373 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.16:5002
+2025-11-15 16:14:51,374 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-15 16:14:51,376 - INFO -  * Restarting with stat
+2025-11-15 16:14:52,448 - WARNING -  * Debugger is active!
+2025-11-15 16:14:52,456 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 16:14:52,489 - INFO - 127.0.0.1 - - [15/Nov/2025 16:14:52] "GET / HTTP/1.1" 200 -
+2025-11-15 16:14:52,496 - INFO - 127.0.0.1 - - [15/Nov/2025 16:14:52] "GET / HTTP/1.1" 200 -
+2025-11-15 16:17:48,487 - INFO - 127.0.0.1 - - [15/Nov/2025 16:17:48] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:17:53,589 - INFO - 127.0.0.1 - - [15/Nov/2025 16:17:53] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:17:53,595 - INFO - 127.0.0.1 - - [15/Nov/2025 16:17:53] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:18:02,875 - INFO - 127.0.0.1 - - [15/Nov/2025 16:18:02] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:18:02,893 - INFO - 127.0.0.1 - - [15/Nov/2025 16:18:02] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:18:14,344 - INFO - 127.0.0.1 - - [15/Nov/2025 16:18:14] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:18:14,354 - INFO - 127.0.0.1 - - [15/Nov/2025 16:18:14] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:18:15,913 - INFO - 127.0.0.1 - - [15/Nov/2025 16:18:15] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:18:23,761 - INFO - 127.0.0.1 - - [15/Nov/2025 16:18:23] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:18:23,761 - INFO - 127.0.0.1 - - [15/Nov/2025 16:18:23] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:18:25,198 - INFO - 127.0.0.1 - - [15/Nov/2025 16:18:25] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:18:26,662 - INFO - 127.0.0.1 - - [15/Nov/2025 16:18:26] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:18:27,484 - INFO - 127.0.0.1 - - [15/Nov/2025 16:18:27] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:18:32,246 - INFO - 127.0.0.1 - - [15/Nov/2025 16:18:32] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:18:32,255 - INFO - 127.0.0.1 - - [15/Nov/2025 16:18:32] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:19:52,270 - INFO - 127.0.0.1 - - [15/Nov/2025 16:19:52] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:23:24,197 - INFO - 127.0.0.1 - - [15/Nov/2025 16:23:24] "GET / HTTP/1.1" 200 -
+2025-11-15 16:23:25,636 - INFO - 127.0.0.1 - - [15/Nov/2025 16:23:25] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:23:37,214 - INFO - 127.0.0.1 - - [15/Nov/2025 16:23:37] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:23:42,846 - INFO - 127.0.0.1 - - [15/Nov/2025 16:23:42] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:23:42,857 - INFO - 127.0.0.1 - - [15/Nov/2025 16:23:42] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:23:51,023 - INFO - 127.0.0.1 - - [15/Nov/2025 16:23:51] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:23:51,026 - INFO - 127.0.0.1 - - [15/Nov/2025 16:23:51] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:23:57,509 - INFO - User created: alex
+2025-11-15 16:23:57,511 - INFO - 127.0.0.1 - - [15/Nov/2025 16:23:57] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:23:57,520 - INFO - 127.0.0.1 - - [15/Nov/2025 16:23:57] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:24:04,176 - INFO - User logged in: alex
+2025-11-15 16:24:04,176 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:24:04,197 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:04] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:24:06,475 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:06] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 16:24:10,038 - INFO - Note created for user 4: aa
+2025-11-15 16:24:10,039 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:10] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-15 16:24:10,051 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:10] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:24:11,143 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:11] "[35m[1mGET /edit_note/3 HTTP/1.1[0m" 500 -
+2025-11-15 16:24:11,265 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:11] "GET /edit_note/3?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-15 16:24:11,267 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:11] "GET /edit_note/3?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-15 16:24:11,319 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:11] "GET /edit_note/3?__debugger__=yes&cmd=resource&f=console.png&s=fXLudN4nPzqCnTQgAt55 HTTP/1.1" 200 -
+2025-11-15 16:24:11,320 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:11] "GET /edit_note/3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-15 16:24:11,375 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:11] "[36mGET /edit_note/3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-15 16:24:15,307 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:15] "[35m[1mGET /edit_note/3 HTTP/1.1[0m" 500 -
+2025-11-15 16:24:15,344 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:15] "[36mGET /edit_note/3?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-15 16:24:15,354 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:15] "[36mGET /edit_note/3?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-15 16:24:15,378 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:15] "[36mGET /edit_note/3?__debugger__=yes&cmd=resource&f=console.png&s=fXLudN4nPzqCnTQgAt55 HTTP/1.1[0m" 304 -
+2025-11-15 16:24:15,390 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:15] "[36mGET /edit_note/3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-15 16:24:17,365 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:17] "[35m[1mPOST /delete_note/3 HTTP/1.1[0m" 500 -
+2025-11-15 16:24:17,403 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:17] "GET /delete_note/3?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-15 16:24:17,411 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:17] "GET /delete_note/3?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-15 16:24:17,439 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:17] "GET /delete_note/3?__debugger__=yes&cmd=resource&f=console.png&s=fXLudN4nPzqCnTQgAt55 HTTP/1.1" 200 -
+2025-11-15 16:24:17,443 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:17] "GET /delete_note/3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-15 16:24:17,472 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:17] "[36mGET /delete_note/3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-15 16:24:19,641 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-15 16:24:19,650 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:19] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:24:20,816 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:20] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:24:26,726 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:26] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:24:26,735 - INFO - 127.0.0.1 - - [15/Nov/2025 16:24:26] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:25:10,457 - INFO - 127.0.0.1 - - [15/Nov/2025 16:25:10] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:25:13,255 - INFO - 127.0.0.1 - - [15/Nov/2025 16:25:13] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:25:18,462 - INFO - User logged in: alex
+2025-11-15 16:25:18,463 - INFO - 127.0.0.1 - - [15/Nov/2025 16:25:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:25:18,471 - INFO - 127.0.0.1 - - [15/Nov/2025 16:25:18] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:25:20,547 - INFO - 127.0.0.1 - - [15/Nov/2025 16:25:20] "[35m[1mGET /edit_note/3 HTTP/1.1[0m" 500 -
+2025-11-15 16:25:20,606 - INFO - 127.0.0.1 - - [15/Nov/2025 16:25:20] "[36mGET /edit_note/3?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-15 16:25:20,619 - INFO - 127.0.0.1 - - [15/Nov/2025 16:25:20] "[36mGET /edit_note/3?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-15 16:25:20,655 - INFO - 127.0.0.1 - - [15/Nov/2025 16:25:20] "[36mGET /edit_note/3?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-15 16:25:20,659 - INFO - 127.0.0.1 - - [15/Nov/2025 16:25:20] "[36mGET /edit_note/3?__debugger__=yes&cmd=resource&f=console.png&s=fXLudN4nPzqCnTQgAt55 HTTP/1.1[0m" 304 -
+2025-11-15 16:30:39,422 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\db.py', reloading
+2025-11-15 16:30:39,590 - INFO -  * Restarting with stat
+2025-11-15 16:30:40,346 - WARNING -  * Debugger is active!
+2025-11-15 16:30:40,353 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 16:30:40,416 - INFO - 127.0.0.1 - - [15/Nov/2025 16:30:40] "GET / HTTP/1.1" 200 -
+2025-11-15 16:31:11,958 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.16:5002
+2025-11-15 16:31:11,958 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-15 16:31:11,960 - INFO -  * Restarting with stat
+2025-11-15 16:31:12,913 - WARNING -  * Debugger is active!
+2025-11-15 16:31:12,929 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 16:31:12,958 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:12] "GET / HTTP/1.1" 200 -
+2025-11-15 16:31:12,961 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:12] "GET / HTTP/1.1" 200 -
+2025-11-15 16:31:26,457 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:26] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:31:32,639 - WARNING - Failed to create user alex: UNIQUE constraint failed: users.username
+2025-11-15 16:31:32,640 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:32] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:31:32,646 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:32] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:31:35,793 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:35] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:31:41,249 - INFO - User logged in: alex
+2025-11-15 16:31:41,250 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:31:41,267 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:41] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:31:43,244 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:43] "GET /edit_note/3 HTTP/1.1" 200 -
+2025-11-15 16:31:47,006 - INFO - Note updated: 3
+2025-11-15 16:31:47,006 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:47] "[32mPOST /edit_note/3 HTTP/1.1[0m" 302 -
+2025-11-15 16:31:47,023 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:47] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:31:48,561 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:48] "GET /edit_note/3 HTTP/1.1" 200 -
+2025-11-15 16:31:51,193 - INFO - Note updated: 3
+2025-11-15 16:31:51,196 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:51] "[32mPOST /edit_note/3 HTTP/1.1[0m" 302 -
+2025-11-15 16:31:51,207 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:51] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:31:52,309 - INFO - Note deleted: 3
+2025-11-15 16:31:52,310 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:52] "[32mPOST /delete_note/3 HTTP/1.1[0m" 302 -
+2025-11-15 16:31:52,319 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:52] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:31:54,138 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:54] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 16:31:55,314 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:55] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:31:56,130 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:56] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-15 16:31:56,140 - INFO - 127.0.0.1 - - [15/Nov/2025 16:31:56] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:35:55,580 - INFO - 127.0.0.1 - - [15/Nov/2025 16:35:55] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:36:04,171 - INFO - 127.0.0.1 - - [15/Nov/2025 16:36:04] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:36:04,183 - INFO - 127.0.0.1 - - [15/Nov/2025 16:36:04] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:36:10,923 - INFO - 127.0.0.1 - - [15/Nov/2025 16:36:10] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:36:10,931 - INFO - 127.0.0.1 - - [15/Nov/2025 16:36:10] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:36:30,498 - INFO - 127.0.0.1 - - [15/Nov/2025 16:36:30] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:36:37,912 - WARNING - Failed login attempt for user: admin' --
+2025-11-15 16:36:37,912 - INFO - 127.0.0.1 - - [15/Nov/2025 16:36:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:36:37,921 - INFO - 127.0.0.1 - - [15/Nov/2025 16:36:37] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:36:45,408 - WARNING - Failed login attempt for user: anything
+2025-11-15 16:36:45,409 - INFO - 127.0.0.1 - - [15/Nov/2025 16:36:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:36:45,418 - INFO - 127.0.0.1 - - [15/Nov/2025 16:36:45] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:36:46,443 - INFO - 127.0.0.1 - - [15/Nov/2025 16:36:46] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:36:57,138 - INFO - 127.0.0.1 - - [15/Nov/2025 16:36:57] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:37:02,883 - WARNING - Failed login attempt for user: anything
+2025-11-15 16:37:02,884 - INFO - 127.0.0.1 - - [15/Nov/2025 16:37:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:37:02,891 - INFO - 127.0.0.1 - - [15/Nov/2025 16:37:02] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:39:32,695 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.16:5002
+2025-11-15 16:39:32,695 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-15 16:39:32,697 - INFO -  * Restarting with stat
+2025-11-15 16:39:33,734 - WARNING -  * Debugger is active!
+2025-11-15 16:39:33,741 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 16:39:33,771 - INFO - 127.0.0.1 - - [15/Nov/2025 16:39:33] "GET / HTTP/1.1" 200 -
+2025-11-15 16:39:33,775 - INFO - 127.0.0.1 - - [15/Nov/2025 16:39:33] "GET / HTTP/1.1" 200 -
+2025-11-15 16:39:37,087 - INFO - 127.0.0.1 - - [15/Nov/2025 16:39:37] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:40:17,899 - WARNING - Login failed for non-existent user: admin' --
+2025-11-15 16:40:17,900 - INFO - 127.0.0.1 - - [15/Nov/2025 16:40:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:40:17,907 - INFO - 127.0.0.1 - - [15/Nov/2025 16:40:17] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:40:24,420 - WARNING - Login failed for non-existent user: a
+2025-11-15 16:40:24,421 - INFO - 127.0.0.1 - - [15/Nov/2025 16:40:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:40:24,428 - INFO - 127.0.0.1 - - [15/Nov/2025 16:40:24] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:40:39,848 - INFO - User logged in: alex
+2025-11-15 16:40:39,849 - INFO - 127.0.0.1 - - [15/Nov/2025 16:40:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:40:39,880 - INFO - 127.0.0.1 - - [15/Nov/2025 16:40:39] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:40:41,030 - INFO - 127.0.0.1 - - [15/Nov/2025 16:40:41] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 16:40:58,065 - WARNING - User 4 attempted invalid note title: &lt;script&gt;alert(&#39;Hacked&#39;)&lt;/script&gt;
+2025-11-15 16:40:58,067 - INFO - 127.0.0.1 - - [15/Nov/2025 16:40:58] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-15 16:40:58,076 - INFO - 127.0.0.1 - - [15/Nov/2025 16:40:58] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 16:43:04,802 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\db.py', reloading
+2025-11-15 16:43:04,884 - INFO -  * Restarting with stat
+2025-11-15 16:43:05,549 - INFO - Database initialized successfully.
+2025-11-15 16:43:05,754 - WARNING -  * Debugger is active!
+2025-11-15 16:43:05,767 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 16:43:05,849 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:05] "GET / HTTP/1.1" 200 -
+2025-11-15 16:43:14,330 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:14] "GET / HTTP/1.1" 200 -
+2025-11-15 16:43:15,341 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:15] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:43:16,981 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:16] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:43:16,989 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:16] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:43:19,648 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:19] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:43:19,658 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:19] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:43:30,514 - INFO - User created successfully: john
+2025-11-15 16:43:30,516 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:30] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:43:30,523 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:30] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:43:35,917 - WARNING - Login attempt with invalid username: aa
+2025-11-15 16:43:35,917 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:43:35,942 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:35] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:43:40,206 - WARNING - Login attempt with invalid username: aa
+2025-11-15 16:43:40,206 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:43:40,214 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:40] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:43:46,720 - INFO - User logged in successfully: john
+2025-11-15 16:43:46,721 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:43:46,751 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:46] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:43:49,825 - INFO - 127.0.0.1 - - [15/Nov/2025 16:43:49] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 16:46:03,397 - INFO - 127.0.0.1 - - [15/Nov/2025 16:46:03] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:46:04,290 - INFO - 127.0.0.1 - - [15/Nov/2025 16:46:04] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-15 16:46:04,299 - INFO - 127.0.0.1 - - [15/Nov/2025 16:46:04] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:46:12,078 - WARNING - Login failed: user does not exist: admin
+2025-11-15 16:46:12,079 - INFO - 127.0.0.1 - - [15/Nov/2025 16:46:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:46:12,087 - INFO - 127.0.0.1 - - [15/Nov/2025 16:46:12] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:51:45,728 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\db.py', reloading
+2025-11-15 16:51:45,803 - INFO -  * Restarting with stat
+2025-11-15 16:51:46,300 - INFO - Database initialized successfully.
+2025-11-15 16:52:07,002 - INFO - Database initialized successfully.
+2025-11-15 16:52:07,186 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.16:5002
+2025-11-15 16:52:07,186 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-15 16:52:07,188 - INFO -  * Restarting with stat
+2025-11-15 16:52:07,913 - INFO - Database initialized successfully.
+2025-11-15 16:52:08,123 - WARNING -  * Debugger is active!
+2025-11-15 16:52:08,128 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 16:52:08,156 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:08] "GET / HTTP/1.1" 200 -
+2025-11-15 16:52:08,160 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:08] "GET / HTTP/1.1" 200 -
+2025-11-15 16:52:12,715 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:12] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:52:15,703 - INFO - Login attempt received with username: 'a'
+2025-11-15 16:52:15,703 - WARNING - Rejected login - invalid username format: 'a'
+2025-11-15 16:52:15,704 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:52:15,711 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:15] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:52:32,300 - INFO - Login attempt received with username: 'alex'
+2025-11-15 16:52:32,759 - WARNING - Login failed - incorrect password for user: 'alex'
+2025-11-15 16:52:32,760 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:52:32,767 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:32] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:52:39,172 - INFO - Login attempt received with username: 'alex'
+2025-11-15 16:52:39,604 - WARNING - Login failed - incorrect password for user: 'alex'
+2025-11-15 16:52:39,606 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:52:39,613 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:39] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:52:41,678 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:41] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:52:44,458 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:44] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:52:44,467 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:44] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:52:46,390 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:46] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:52:50,846 - INFO - Login attempt received with username: '11'
+2025-11-15 16:52:50,846 - WARNING - Rejected login - invalid username format: '11'
+2025-11-15 16:52:50,848 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:52:50,859 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:50] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:52:53,520 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:53] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:52:57,185 - INFO - 127.0.0.1 - - [15/Nov/2025 16:52:57] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:56:53,459 - INFO - 127.0.0.1 - - [15/Nov/2025 16:56:53] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:56:55,158 - INFO - 127.0.0.1 - - [15/Nov/2025 16:56:55] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:56:57,788 - INFO - 127.0.0.1 - - [15/Nov/2025 16:56:57] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:56:57,795 - INFO - 127.0.0.1 - - [15/Nov/2025 16:56:57] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:56:59,019 - INFO - 127.0.0.1 - - [15/Nov/2025 16:56:59] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:57:02,876 - INFO - Login attempt received with username: 'alex'
+2025-11-15 16:57:02,876 - WARNING - Rejected login - password too short for username: 'alex' (length=1)
+2025-11-15 16:57:02,877 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:57:02,885 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:02] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:57:10,321 - INFO - Login attempt received with username: 'alex'
+2025-11-15 16:57:10,637 - INFO - User logged in successfully: 'alex'
+2025-11-15 16:57:10,638 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:57:10,682 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:10] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:57:14,613 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-15 16:57:14,621 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:14] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:57:22,436 - INFO - Login attempt received with username: 'new'
+2025-11-15 16:57:22,437 - WARNING - Login failed - user does not exist: 'new'
+2025-11-15 16:57:22,438 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:57:22,446 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:22] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:57:30,350 - INFO - Login attempt received with username: 'admin'
+2025-11-15 16:57:30,352 - WARNING - Login failed - user does not exist: 'admin'
+2025-11-15 16:57:30,354 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:57:30,363 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:30] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:57:39,348 - INFO - Login attempt received with username: 'alex'
+2025-11-15 16:57:39,348 - WARNING - Rejected login - password too short for username: 'alex' (length=2)
+2025-11-15 16:57:39,348 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:57:39,356 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:39] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:57:44,377 - INFO - Login attempt received with username: 'alex'
+2025-11-15 16:57:44,822 - INFO - User logged in successfully: 'alex'
+2025-11-15 16:57:44,823 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:57:44,833 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:44] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:57:46,444 - INFO - 127.0.0.1 - - [15/Nov/2025 16:57:46] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 16:58:09,396 - INFO - 127.0.0.1 - - [15/Nov/2025 16:58:09] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 16:58:10,394 - INFO - 127.0.0.1 - - [15/Nov/2025 16:58:10] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:58:11,366 - INFO - 127.0.0.1 - - [15/Nov/2025 16:58:11] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-15 16:58:11,376 - INFO - 127.0.0.1 - - [15/Nov/2025 16:58:11] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:58:12,951 - INFO - 127.0.0.1 - - [15/Nov/2025 16:58:12] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:58:15,877 - INFO - 127.0.0.1 - - [15/Nov/2025 16:58:15] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 16:58:15,883 - INFO - 127.0.0.1 - - [15/Nov/2025 16:58:15] "GET /register HTTP/1.1" 200 -
+2025-11-15 16:58:19,017 - INFO - 127.0.0.1 - - [15/Nov/2025 16:58:19] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:58:26,634 - INFO - Login attempt received with username: 'alex'
+2025-11-15 16:58:27,121 - INFO - User logged in successfully: 'alex'
+2025-11-15 16:58:27,121 - INFO - 127.0.0.1 - - [15/Nov/2025 16:58:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 16:58:27,129 - INFO - 127.0.0.1 - - [15/Nov/2025 16:58:27] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:58:28,261 - INFO - 127.0.0.1 - - [15/Nov/2025 16:58:28] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 16:59:16,047 - INFO - 127.0.0.1 - - [15/Nov/2025 16:59:16] "GET /notes HTTP/1.1" 200 -
+2025-11-15 16:59:46,415 - INFO - 127.0.0.1 - - [15/Nov/2025 16:59:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-15 16:59:46,425 - INFO - 127.0.0.1 - - [15/Nov/2025 16:59:46] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:59:50,995 - INFO - 127.0.0.1 - - [15/Nov/2025 16:59:50] "[32mGET /notes HTTP/1.1[0m" 302 -
+2025-11-15 16:59:51,005 - INFO - 127.0.0.1 - - [15/Nov/2025 16:59:51] "GET /login HTTP/1.1" 200 -
+2025-11-15 16:59:57,570 - INFO - 127.0.0.1 - - [15/Nov/2025 16:59:57] "[32mGET /notes HTTP/1.1[0m" 302 -
+2025-11-15 16:59:57,581 - INFO - 127.0.0.1 - - [15/Nov/2025 16:59:57] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:00:06,016 - INFO - 127.0.0.1 - - [15/Nov/2025 17:00:06] "[32mGET /new_note HTTP/1.1[0m" 302 -
+2025-11-15 17:00:06,028 - INFO - 127.0.0.1 - - [15/Nov/2025 17:00:06] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:00:15,647 - INFO - 127.0.0.1 - - [15/Nov/2025 17:00:15] "GET /register HTTP/1.1" 200 -
+2025-11-15 17:00:21,131 - INFO - User created successfully: user1
+2025-11-15 17:00:21,133 - INFO - 127.0.0.1 - - [15/Nov/2025 17:00:21] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 17:00:21,140 - INFO - 127.0.0.1 - - [15/Nov/2025 17:00:21] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:00:30,678 - INFO - Login attempt received with username: 'user1'
+2025-11-15 17:00:31,067 - INFO - User logged in successfully: 'user1'
+2025-11-15 17:00:31,067 - INFO - 127.0.0.1 - - [15/Nov/2025 17:00:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 17:00:31,077 - INFO - 127.0.0.1 - - [15/Nov/2025 17:00:31] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:00:44,563 - WARNING - Note not found: 3
+2025-11-15 17:00:44,563 - INFO - 127.0.0.1 - - [15/Nov/2025 17:00:44] "[31m[1mGET /edit_note/3 HTTP/1.1[0m" 403 -
+2025-11-15 17:00:56,381 - INFO - 127.0.0.1 - - [15/Nov/2025 17:00:56] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:01:10,284 - WARNING - Invalid note title by user 6: &lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;
+2025-11-15 17:01:10,285 - INFO - 127.0.0.1 - - [15/Nov/2025 17:01:10] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-15 17:01:10,294 - INFO - 127.0.0.1 - - [15/Nov/2025 17:01:10] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:02:17,835 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:17] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:02:24,669 - WARNING - Invalid note title by user 6: &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt;     &lt;title&gt;New Note&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h1&gt;Create Note&lt;/h1&gt;  &lt;!-- Display any flash messages (errors or logs) --&gt; {% with messages = get_flashed_messages() %}   {% if messages %}     &lt;ul style=&#34;color:red;&#34;&gt;       {% for message in messages %}         &lt;li&gt;{{ message }}&lt;/li&gt;       {% endfor %}     &lt;/ul&gt;   {% endif %} {% endwith %}  &lt;form method=&#34;POST&#34;&gt;     Title: &lt;input name=&#34;title&#34; required&gt;&lt;br&gt;&lt;br&gt;     Content: &lt;textarea name=&#34;content&#34; rows=&#34;5&#34; cols=&#34;40&#34;&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;     &lt;button type=&#34;submit&#34;&gt;Save Note&lt;/button&gt; &lt;/form&gt; &lt;a href=&#34;/notes&#34;&gt;Back to Notes&lt;/a&gt; &lt;/body&gt; &lt;/html&gt;
+2025-11-15 17:02:24,669 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:24] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-15 17:02:24,680 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:24] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:02:27,516 - INFO - Note created for user 6: aa
+2025-11-15 17:02:27,517 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:27] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-15 17:02:27,529 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:27] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:02:30,706 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:30] "[33mGET /search?q=aa HTTP/1.1[0m" 404 -
+2025-11-15 17:02:35,059 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:35] "[33mGET /search?q=aa HTTP/1.1[0m" 404 -
+2025-11-15 17:02:37,260 - INFO - Note deleted: 4
+2025-11-15 17:02:37,261 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:37] "[32mPOST /delete_note/4 HTTP/1.1[0m" 302 -
+2025-11-15 17:02:37,271 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:37] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:02:38,542 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:38] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:02:41,560 - INFO - Note created for user 6: aaa
+2025-11-15 17:02:41,562 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:41] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-15 17:02:41,572 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:41] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:02:46,614 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:46] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:02:49,767 - INFO - Note created for user 6: bbb
+2025-11-15 17:02:49,768 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:49] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-15 17:02:49,778 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:49] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:02:52,202 - INFO - 127.0.0.1 - - [15/Nov/2025 17:02:52] "[33mGET /search?q=bbb HTTP/1.1[0m" 404 -
+2025-11-15 17:03:26,432 - INFO - 127.0.0.1 - - [15/Nov/2025 17:03:26] "[33mGET /search?q=bbb HTTP/1.1[0m" 404 -
+2025-11-15 17:03:39,198 - INFO - 127.0.0.1 - - [15/Nov/2025 17:03:39] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:03:40,450 - INFO - 127.0.0.1 - - [15/Nov/2025 17:03:40] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:05:07,012 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\app.py', reloading
+2025-11-15 17:05:07,148 - INFO -  * Restarting with stat
+2025-11-15 17:05:07,678 - INFO - Database initialized successfully.
+2025-11-15 17:05:07,838 - WARNING -  * Debugger is active!
+2025-11-15 17:05:07,842 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 17:05:08,037 - INFO - 127.0.0.1 - - [15/Nov/2025 17:05:08] "GET / HTTP/1.1" 200 -
+2025-11-15 17:05:21,034 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\app.py', reloading
+2025-11-15 17:05:21,082 - INFO -  * Restarting with stat
+2025-11-15 17:05:21,567 - INFO - Database initialized successfully.
+2025-11-15 17:05:21,713 - WARNING -  * Debugger is active!
+2025-11-15 17:05:21,726 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 17:05:21,806 - INFO - 127.0.0.1 - - [15/Nov/2025 17:05:21] "GET / HTTP/1.1" 200 -
+2025-11-15 17:06:35,619 - INFO - 127.0.0.1 - - [15/Nov/2025 17:06:35] "[33mGET /note/6 HTTP/1.1[0m" 404 -
+2025-11-15 17:06:38,278 - INFO - 127.0.0.1 - - [15/Nov/2025 17:06:38] "[33mGET /note/6 HTTP/1.1[0m" 404 -
+2025-11-15 17:06:40,629 - INFO - 127.0.0.1 - - [15/Nov/2025 17:06:40] "[33mGET /note/5 HTTP/1.1[0m" 404 -
+2025-11-15 17:06:42,695 - INFO - 127.0.0.1 - - [15/Nov/2025 17:06:42] "[32mGET /edit_note/6 HTTP/1.1[0m" 302 -
+2025-11-15 17:06:42,709 - INFO - 127.0.0.1 - - [15/Nov/2025 17:06:42] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:06:45,897 - INFO - 127.0.0.1 - - [15/Nov/2025 17:06:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-15 17:06:45,905 - INFO - 127.0.0.1 - - [15/Nov/2025 17:06:45] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:07:23,091 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\db.py', reloading
+2025-11-15 17:07:23,149 - INFO -  * Restarting with stat
+2025-11-15 17:07:23,665 - INFO - Database initialized successfully.
+2025-11-15 17:07:23,940 - WARNING -  * Debugger is active!
+2025-11-15 17:07:23,945 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 17:07:23,994 - INFO - 127.0.0.1 - - [15/Nov/2025 17:07:23] "GET / HTTP/1.1" 200 -
+2025-11-15 17:07:26,740 - INFO - 127.0.0.1 - - [15/Nov/2025 17:07:26] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:07:31,272 - INFO - Login attempt received with username: 'alex'
+2025-11-15 17:07:31,712 - INFO - User logged in successfully: 'alex'
+2025-11-15 17:07:31,713 - INFO - 127.0.0.1 - - [15/Nov/2025 17:07:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 17:07:31,730 - INFO - 127.0.0.1 - - [15/Nov/2025 17:07:31] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:07:34,602 - INFO - 127.0.0.1 - - [15/Nov/2025 17:07:34] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:07:37,273 - INFO - Note created for user 4: aa
+2025-11-15 17:07:37,275 - INFO - 127.0.0.1 - - [15/Nov/2025 17:07:37] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-15 17:07:37,286 - INFO - 127.0.0.1 - - [15/Nov/2025 17:07:37] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:07:38,427 - INFO - 127.0.0.1 - - [15/Nov/2025 17:07:38] "[33mGET /note/7 HTTP/1.1[0m" 404 -
+2025-11-15 17:07:41,006 - INFO - 127.0.0.1 - - [15/Nov/2025 17:07:41] "[33mGET /search?q=aa HTTP/1.1[0m" 404 -
+2025-11-15 17:09:53,495 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\app.py', reloading
+2025-11-15 17:09:53,552 - INFO -  * Restarting with stat
+2025-11-15 17:09:54,069 - INFO - Database initialized successfully.
+2025-11-15 17:10:05,760 - INFO - Database initialized successfully.
+2025-11-15 17:10:05,972 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.16:5002
+2025-11-15 17:10:05,973 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-15 17:10:05,976 - INFO -  * Restarting with stat
+2025-11-15 17:10:06,794 - INFO - Database initialized successfully.
+2025-11-15 17:10:07,053 - WARNING -  * Debugger is active!
+2025-11-15 17:10:07,058 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 17:10:07,082 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:07] "GET / HTTP/1.1" 200 -
+2025-11-15 17:10:07,088 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:07] "GET / HTTP/1.1" 200 -
+2025-11-15 17:10:13,486 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:13] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:10:17,923 - INFO - Login attempt received with username: 'aa'
+2025-11-15 17:10:17,924 - WARNING - Rejected login - invalid username format: 'aa'
+2025-11-15 17:10:17,926 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 17:10:17,933 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:17] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:10:26,946 - INFO - Login attempt received with username: 'alex'
+2025-11-15 17:10:27,388 - INFO - User logged in successfully: 'alex'
+2025-11-15 17:10:27,389 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 17:10:27,395 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:27] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:10:30,664 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:30] "GET /search?q=aa HTTP/1.1" 200 -
+2025-11-15 17:10:33,382 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:33] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:10:35,192 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:35] "GET /edit_note/7 HTTP/1.1" 200 -
+2025-11-15 17:10:37,317 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:37] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:10:38,453 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:38] "[33mGET /note/7 HTTP/1.1[0m" 404 -
+2025-11-15 17:10:40,863 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:40] "[33mGET /note/7 HTTP/1.1[0m" 404 -
+2025-11-15 17:10:53,720 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:53] "GET /edit_note/7 HTTP/1.1" 200 -
+2025-11-15 17:10:57,079 - INFO - Note updated: 7
+2025-11-15 17:10:57,081 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:57] "[32mPOST /edit_note/7 HTTP/1.1[0m" 302 -
+2025-11-15 17:10:57,092 - INFO - 127.0.0.1 - - [15/Nov/2025 17:10:57] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:11:00,438 - INFO - 127.0.0.1 - - [15/Nov/2025 17:11:00] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:11:01,539 - INFO - 127.0.0.1 - - [15/Nov/2025 17:11:01] "[33mGET /note/7 HTTP/1.1[0m" 404 -
+2025-11-15 17:11:33,108 - INFO - 127.0.0.1 - - [15/Nov/2025 17:11:33] "[33mGET /note/7 HTTP/1.1[0m" 404 -
+2025-11-15 17:11:48,101 - INFO - 127.0.0.1 - - [15/Nov/2025 17:11:48] "GET /search?q=aa HTTP/1.1" 200 -
+2025-11-15 17:11:49,787 - INFO - 127.0.0.1 - - [15/Nov/2025 17:11:49] "[33mGET /note/7 HTTP/1.1[0m" 404 -
+2025-11-15 17:11:53,574 - INFO - 127.0.0.1 - - [15/Nov/2025 17:11:53] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:12:33,518 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\app.py', reloading
+2025-11-15 17:12:33,589 - INFO -  * Restarting with stat
+2025-11-15 17:12:34,033 - INFO - Database initialized successfully.
+2025-11-15 17:12:34,175 - WARNING -  * Debugger is active!
+2025-11-15 17:12:34,179 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 17:12:34,255 - INFO - 127.0.0.1 - - [15/Nov/2025 17:12:34] "GET / HTTP/1.1" 200 -
+2025-11-15 17:12:37,834 - INFO - 127.0.0.1 - - [15/Nov/2025 17:12:37] "[32mGET /notes HTTP/1.1[0m" 302 -
+2025-11-15 17:12:37,848 - INFO - 127.0.0.1 - - [15/Nov/2025 17:12:37] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:12:40,961 - INFO - 127.0.0.1 - - [15/Nov/2025 17:12:40] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:12:46,133 - INFO - Login attempt received with username: 'alex'
+2025-11-15 17:12:46,509 - INFO - User logged in successfully: 'alex'
+2025-11-15 17:12:46,509 - INFO - 127.0.0.1 - - [15/Nov/2025 17:12:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 17:12:46,522 - INFO - 127.0.0.1 - - [15/Nov/2025 17:12:46] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:12:48,320 - INFO - 127.0.0.1 - - [15/Nov/2025 17:12:48] "[35m[1mGET /note/7 HTTP/1.1[0m" 500 -
+2025-11-15 17:12:48,512 - INFO - 127.0.0.1 - - [15/Nov/2025 17:12:48] "GET /note/7?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-15 17:12:48,512 - INFO - 127.0.0.1 - - [15/Nov/2025 17:12:48] "GET /note/7?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-15 17:12:48,574 - INFO - 127.0.0.1 - - [15/Nov/2025 17:12:48] "GET /note/7?__debugger__=yes&cmd=resource&f=console.png&s=1VCPi48mf9qboWpVuvbq HTTP/1.1" 200 -
+2025-11-15 17:12:48,576 - INFO - 127.0.0.1 - - [15/Nov/2025 17:12:48] "GET /note/7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-15 17:12:48,598 - INFO - 127.0.0.1 - - [15/Nov/2025 17:12:48] "[36mGET /note/7?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-15 17:13:07,510 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\app.py', reloading
+2025-11-15 17:13:07,542 - INFO -  * Restarting with stat
+2025-11-15 17:13:07,974 - INFO - Database initialized successfully.
+2025-11-15 17:13:08,133 - WARNING -  * Debugger is active!
+2025-11-15 17:13:08,139 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 17:13:08,202 - INFO - 127.0.0.1 - - [15/Nov/2025 17:13:08] "GET / HTTP/1.1" 200 -
+2025-11-15 17:13:11,417 - INFO - 127.0.0.1 - - [15/Nov/2025 17:13:11] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:13:16,138 - INFO - Login attempt received with username: 'alex'
+2025-11-15 17:13:16,614 - INFO - User logged in successfully: 'alex'
+2025-11-15 17:13:16,614 - INFO - 127.0.0.1 - - [15/Nov/2025 17:13:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 17:13:16,627 - INFO - 127.0.0.1 - - [15/Nov/2025 17:13:16] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:13:17,539 - INFO - 127.0.0.1 - - [15/Nov/2025 17:13:17] "[33mGET /note/7 HTTP/1.1[0m" 404 -
+2025-11-15 17:13:20,495 - INFO - 127.0.0.1 - - [15/Nov/2025 17:13:20] "[33mGET /note/7 HTTP/1.1[0m" 404 -
+2025-11-15 17:13:51,782 - INFO - 127.0.0.1 - - [15/Nov/2025 17:13:51] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:16:45,367 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\app.py', reloading
+2025-11-15 17:16:45,527 - INFO -  * Restarting with stat
+2025-11-15 17:17:08,116 - INFO - Database initialized successfully.
+2025-11-15 17:17:08,430 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.16:5002
+2025-11-15 17:17:08,430 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-15 17:17:08,433 - INFO -  * Restarting with stat
+2025-11-15 17:17:09,258 - INFO - Database initialized successfully.
+2025-11-15 17:17:09,459 - WARNING -  * Debugger is active!
+2025-11-15 17:17:09,466 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 17:17:09,496 - INFO - 127.0.0.1 - - [15/Nov/2025 17:17:09] "GET / HTTP/1.1" 200 -
+2025-11-15 17:17:09,500 - INFO - 127.0.0.1 - - [15/Nov/2025 17:17:09] "GET / HTTP/1.1" 200 -
+2025-11-15 17:17:12,273 - INFO - 127.0.0.1 - - [15/Nov/2025 17:17:12] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:17:16,862 - INFO - Login attempt received with username: 'alex'
+2025-11-15 17:17:17,322 - INFO - User logged in successfully: 'alex'
+2025-11-15 17:17:17,323 - INFO - 127.0.0.1 - - [15/Nov/2025 17:17:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 17:17:17,351 - INFO - 127.0.0.1 - - [15/Nov/2025 17:17:17] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:17:18,651 - INFO - 127.0.0.1 - - [15/Nov/2025 17:17:18] "[33mGET /note/7 HTTP/1.1[0m" 404 -
+2025-11-15 17:18:21,210 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:21] "[33mGET /note/7 HTTP/1.1[0m" 404 -
+2025-11-15 17:18:23,462 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:23] "[33mGET /note/7 HTTP/1.1[0m" 404 -
+2025-11-15 17:18:25,755 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:25] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:18:28,774 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:28] "GET /view_note/7 HTTP/1.1" 200 -
+2025-11-15 17:18:30,317 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:30] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:18:31,127 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:31] "GET /view_note/7 HTTP/1.1" 200 -
+2025-11-15 17:18:31,813 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:31] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:18:32,776 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:32] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:18:36,113 - INFO - Note created for user 4: aa
+2025-11-15 17:18:36,114 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:36] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-15 17:18:36,126 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:36] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:18:37,223 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:37] "GET /view_note/8 HTTP/1.1" 200 -
+2025-11-15 17:18:38,073 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:38] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:18:38,791 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:38] "GET /view_note/7 HTTP/1.1" 200 -
+2025-11-15 17:18:39,900 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:39] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:18:40,995 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:40] "GET /edit_note/8 HTTP/1.1" 200 -
+2025-11-15 17:18:43,729 - INFO - Note updated: 8
+2025-11-15 17:18:43,730 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:43] "[32mPOST /edit_note/8 HTTP/1.1[0m" 302 -
+2025-11-15 17:18:43,741 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:43] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:18:45,530 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:45] "GET /view_note/7 HTTP/1.1" 200 -
+2025-11-15 17:18:47,069 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:47] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:18:48,378 - INFO - 127.0.0.1 - - [15/Nov/2025 17:18:48] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:19:20,470 - INFO - 127.0.0.1 - - [15/Nov/2025 17:19:20] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:19:24,761 - INFO - 127.0.0.1 - - [15/Nov/2025 17:19:24] "GET /search?q=aa HTTP/1.1" 200 -
+2025-11-15 17:19:30,694 - INFO - 127.0.0.1 - - [15/Nov/2025 17:19:30] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:19:34,498 - INFO - 127.0.0.1 - - [15/Nov/2025 17:19:34] "GET /search?q=aaab HTTP/1.1" 200 -
+2025-11-15 17:19:36,694 - INFO - 127.0.0.1 - - [15/Nov/2025 17:19:36] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:21:47,578 - INFO - 127.0.0.1 - - [15/Nov/2025 17:21:47] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-15 17:21:47,593 - INFO - 127.0.0.1 - - [15/Nov/2025 17:21:47] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:21:48,895 - INFO - 127.0.0.1 - - [15/Nov/2025 17:21:48] "GET /register HTTP/1.1" 200 -
+2025-11-15 17:21:54,667 - INFO - 127.0.0.1 - - [15/Nov/2025 17:21:54] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:22:00,131 - INFO - Login attempt received with username: '' OR '1'='1'
+2025-11-15 17:22:00,133 - WARNING - Rejected login - invalid username format: '' OR '1'='1'
+2025-11-15 17:22:00,133 - INFO - 127.0.0.1 - - [15/Nov/2025 17:22:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 17:22:00,143 - INFO - 127.0.0.1 - - [15/Nov/2025 17:22:00] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:22:18,681 - INFO - 127.0.0.1 - - [15/Nov/2025 17:22:18] "[32mGET /new_note HTTP/1.1[0m" 302 -
+2025-11-15 17:22:18,693 - INFO - 127.0.0.1 - - [15/Nov/2025 17:22:18] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:22:29,752 - INFO - Login attempt received with username: 'alex'
+2025-11-15 17:22:30,177 - INFO - User logged in successfully: 'alex'
+2025-11-15 17:22:30,178 - INFO - 127.0.0.1 - - [15/Nov/2025 17:22:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 17:22:30,186 - INFO - 127.0.0.1 - - [15/Nov/2025 17:22:30] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:22:32,277 - INFO - 127.0.0.1 - - [15/Nov/2025 17:22:32] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:22:39,025 - WARNING - Invalid note title by user 4: &lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;
+2025-11-15 17:22:39,026 - INFO - 127.0.0.1 - - [15/Nov/2025 17:22:39] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-15 17:22:39,036 - INFO - 127.0.0.1 - - [15/Nov/2025 17:22:39] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:23:09,300 - WARNING - Invalid note title by user 4: &lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;
+2025-11-15 17:23:09,301 - INFO - 127.0.0.1 - - [15/Nov/2025 17:23:09] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-15 17:23:09,310 - INFO - 127.0.0.1 - - [15/Nov/2025 17:23:09] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:23:13,611 - INFO - 127.0.0.1 - - [15/Nov/2025 17:23:13] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:23:18,100 - INFO - 127.0.0.1 - - [15/Nov/2025 17:23:18] "GET /search?q=<script>alert('XSS')</script> HTTP/1.1" 200 -
+2025-11-15 17:23:22,998 - INFO - 127.0.0.1 - - [15/Nov/2025 17:23:22] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:23:44,018 - INFO - 127.0.0.1 - - [15/Nov/2025 17:23:44] "GET /register HTTP/1.1" 200 -
+2025-11-15 17:24:04,428 - INFO - User created successfully: olaf
+2025-11-15 17:24:04,429 - INFO - 127.0.0.1 - - [15/Nov/2025 17:24:04] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-15 17:24:04,435 - INFO - 127.0.0.1 - - [15/Nov/2025 17:24:04] "GET /login HTTP/1.1" 200 -
+2025-11-15 17:32:42,657 - INFO - Login attempt received with username: 'alex'
+2025-11-15 17:32:43,110 - INFO - User logged in successfully: 'alex'
+2025-11-15 17:32:43,116 - INFO - 127.0.0.1 - - [15/Nov/2025 17:32:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-15 17:32:43,169 - INFO - 127.0.0.1 - - [15/Nov/2025 17:32:43] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:32:45,410 - INFO - 127.0.0.1 - - [15/Nov/2025 17:32:45] "GET /view_note/8 HTTP/1.1" 200 -
+2025-11-15 17:32:47,548 - INFO - 127.0.0.1 - - [15/Nov/2025 17:32:47] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:32:50,882 - INFO - 127.0.0.1 - - [15/Nov/2025 17:32:50] "GET /search?q=aaab HTTP/1.1" 200 -
+2025-11-15 17:32:53,834 - INFO - 127.0.0.1 - - [15/Nov/2025 17:32:53] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:32:55,401 - INFO - 127.0.0.1 - - [15/Nov/2025 17:32:55] "GET /new_note HTTP/1.1" 200 -
+2025-11-15 17:32:56,974 - INFO - 127.0.0.1 - - [15/Nov/2025 17:32:56] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:32:58,046 - INFO - 127.0.0.1 - - [15/Nov/2025 17:32:58] "GET /edit_note/7 HTTP/1.1" 200 -
+2025-11-15 17:32:59,244 - INFO - 127.0.0.1 - - [15/Nov/2025 17:32:59] "GET /notes HTTP/1.1" 200 -
+2025-11-15 17:33:39,189 - INFO - 127.0.0.1 - - [15/Nov/2025 17:33:39] "GET /search?q=aa HTTP/1.1" 200 -
+2025-11-15 17:35:43,862 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\db.py', reloading
+2025-11-15 17:35:44,037 - INFO -  * Restarting with stat
+2025-11-15 17:35:44,670 - INFO - Database initialized successfully.
+2025-11-15 17:35:44,920 - WARNING -  * Debugger is active!
+2025-11-15 17:35:44,924 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 17:35:45,120 - INFO - 127.0.0.1 - - [15/Nov/2025 17:35:45] "GET / HTTP/1.1" 200 -
+2025-11-15 17:35:45,962 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\db.py', reloading
+2025-11-15 17:35:46,041 - INFO -  * Restarting with stat
+2025-11-15 17:35:46,737 - INFO - Database initialized successfully.
+2025-11-15 17:35:46,939 - WARNING -  * Debugger is active!
+2025-11-15 17:35:46,948 - INFO -  * Debugger PIN: 102-753-217
+2025-11-15 17:35:46,995 - INFO - 127.0.0.1 - - [15/Nov/2025 17:35:46] "GET / HTTP/1.1" 200 -

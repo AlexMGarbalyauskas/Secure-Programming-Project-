@@ -1,0 +1,24 @@
+<!-- searching for notes -->
+
+<!DOCTYPE html>
+<html>
+<head><title>Your Notes</title></head>
+<body>
+
+<h1>Your Notes</h1>
+<a href="/new_note">New Note</a> | <a href="/logout">Logout</a>
+<br><br>
+
+<form action="/search">
+    Search: <input name="q">
+    <button type="submit">Go</button>
+</form>
+
+<ul>
+{% for note in notes %}
+    <li><a href="/note/{{ note.id }}">{{ note.title }}</a></li>
+{% endfor %}
+</ul>
+
+</body>
+</html>

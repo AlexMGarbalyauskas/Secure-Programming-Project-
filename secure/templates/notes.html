@@ -1,0 +1,47 @@
+
+<!-- create new notes page, appears after login is complete-->
+
+<!DOCTYPE html>
+<html>
+<head><title>Your Notes</title></head>
+<body>
+
+<h1>Your Notes</h1>
+<a href="/new_note">New Note</a> | <a href="/logout">Logout</a>
+<br><br>
+
+<!-- flash messages after errors from app.py -->
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul style="color:green;">
+      {% for message in messages %}
+        <li>{{ message }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+
+
+<!-- search button -->
+<form action="/search">
+    Search: <input name="q">
+    <button type="submit">Go</button>
+</form>
+
+
+<!-- link to view notes -->
+<ul>
+{% for note in notes %}
+    <li>
+        <a href="/view_note/{{ note.id }}">{{ note.title }}</a>
+        | <a href="/edit_note/{{ note.id }}">Edit</a>
+        | <form action="/delete_note/{{ note.id }}" method="POST" style="display:inline;">
+            <button type="submit">Delete</button>
+          </form>
+    </li>
+{% endfor %}
+</ul>
+
+
+</body>
+</html>

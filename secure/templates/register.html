@@ -1,0 +1,31 @@
+<!-- register a user page then login
+ prevents short passwords, same users-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<!-- flash messages after errors from app.py -->
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul style="color:red;">
+      {% for message in messages %}
+        <li>{{ message }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+
+<form method="POST">
+    Username: <input name="username" required><br><br>
+    Password: <input type="password" name="password" required><br><br>
+    <button type="submit">Register</button>
+</form>
+
+<p>Already have an account? <a href="/login">Login</a></p>
+</body>
+</html>
