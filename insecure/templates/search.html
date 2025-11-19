@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Search Notes</h1>
+
+    <form method="POST">
+        Search: <input name="term">
+        <button>Go</button>
+    </form>
+
+    <ul>
+        {% for note in results %}
+            <li>
+                <a href="/note/{{ note['id'] }}">{{ note['title'] | safe }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <a href="/notes">Back</a>
+</body>
+</html>

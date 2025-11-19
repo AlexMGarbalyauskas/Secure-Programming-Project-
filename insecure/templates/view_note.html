@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>{{ note['title'] | safe }}</h1>
+    <p>{{ note['content'] | safe }}</p>
+
+    <a href="/edit_note/{{ note['id'] }}">Edit</a> |
+    <a href="/delete_note/{{ note['id'] }}">Delete</a> |
+    <a href="/notes">Back</a>
+</body>
+</html>

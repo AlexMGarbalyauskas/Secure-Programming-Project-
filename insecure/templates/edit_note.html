@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Edit Note (Insecure)</h1>
+
+    <form method="POST">
+        Title: <input name="title" value="{{ note['title'] }}"><br>
+        Content: <textarea name="content">{{ note['content'] }}</textarea><br>
+        <button>Save</button>
+    </form>
+</body>
+</html>
