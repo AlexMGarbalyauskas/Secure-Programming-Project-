@@ -3,7 +3,7 @@
 
 This project is a **Flask-based Notes Web Application** created for the secure programming module.  
 It includes:
- a
+ 
 - Secure version (`secure` branch)  
 - Insecure version (`insecure` branch)  
 - Main branch (project overview, documentation, navigation)
