@@ -1,3 +1,4 @@
 flask
 bcrypt
 itsdangerous
+selenium==4.38.0
