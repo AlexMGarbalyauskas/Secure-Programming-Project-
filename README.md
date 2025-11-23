@@ -23,9 +23,18 @@ This is the **correct**, secure, production-ready version of the app.
 
 The following steps guide you through setting up and running the secure version of the application.
 
+## python -m venv venv
+## source venv/bin/activate   -- Linux/macOS
+## venv\Scripts\activate      --  Windows
+
+
+
+
+
 ---
 
 ## **1. Navigate to the Secure Directory**
 
 ```bash
 cd secure
+
