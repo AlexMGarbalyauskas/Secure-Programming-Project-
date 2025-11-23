@@ -1,15 +1,12 @@
-<!-- create new notes form 
- prevents scripts to be added -->
-
 <!DOCTYPE html>
 <html>
 <head>
-<title>New Note</title>
+    <meta charset="utf-8">
+    <title>New Note</title>
 </head>
 <body>
-<h1>Create Note</h1>
+<h1>Create New Note</h1>
 
-<!-- flash messages after errors from app.py -->
 {% with messages = get_flashed_messages() %}
   {% if messages %}
     <ul style="color:red;">
@@ -20,11 +17,16 @@
   {% endif %}
 {% endwith %}
 
-<form method="POST">
-    Title: <input name="title" required><br><br>
-    Content: <textarea name="content" rows="5" cols="40"></textarea><br><br>
+<!-- CRSF -->
+<form method="POST" action="/new_note">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+    <label>Title</label><br>
+    <input name="title" required><br><br>
+    <label>Content</label><br>
+    <textarea name="content" required></textarea><br><br>
     <button type="submit">Save Note</button>
 </form>
-<a href="/notes">Back to Notes</a>
+
+<p><a href="/notes">Back to Notes</a></p>
 </body>
 </html>

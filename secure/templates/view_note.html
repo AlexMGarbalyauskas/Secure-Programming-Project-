@@ -1,25 +1,12 @@
-<!-- view notes that user created -->
-
 <!DOCTYPE html>
 <html>
-<head><title>{{ title }}</title></head>
+<head>
+    <meta charset="utf-8">
+    <title>{{ title | e }}</title>
+</head>
 <body>
-
-<h1>{{ title }}</h1>
-
-<!-- flash messages after errors from app.py -->
-{% with messages = get_flashed_messages() %}
-  {% if messages %}
-    <ul style="color:green;">
-      {% for message in messages %}
-        <li>{{ message }}</li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-{% endwith %}
-
-<p>{{ content | safe }}</p>
-
-<a href="/notes">Back</a>
+<h1>{{ title | e }}</h1>
+<pre>{{ content | e }}</pre>
+<p><a href="/notes">Back to notes</a></p>
 </body>
 </html>
