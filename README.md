@@ -1,40 +1,83 @@
-# 🔐 Secure Notes Web Application (Secure Version)
+# Secure Flask Notes Application
 
-## ✅ Purpose of This Version
-
-This branch contains the **hardened, secure version** of the Notes Web Application.
-
-It implements full OWASP‑aligned protections including:
-
-- SQL Injection Mitigation  
-- XSS Prevention  
-- Sensitive Data Protection  
-- Proper Authentication & Authorization  
-- CSRF Protection  
-- Secure Session Handling  
-- Security Headers  
-- Logging & Monitoring  
-
-This is the **correct**, secure, production-ready version of the app.
+A secure Flask-based web application for creating, viewing, editing, and deleting personal notes. This application incorporates best practices for session management, password security, and web security headers.
 
 ---
 
-# 🚀 How to Run the Secure Application
+## Table of Contents
 
-The following steps guide you through setting up and running the secure version of the application.
-
-## python -m venv venv
-## source venv/bin/activate   -- Linux/macOS
-## venv\Scripts\activate      --  Windows
-
-
-
-
+- [Features](#features)
+- [Security Mitigations](#security-mitigations)
+- [Requirements](#requirements)
+- [Setup Instructions](#setup-instructions)
+- [Project Structure](#project-structure)
+- [Database](#database)
+- [Running the App](#running-the-app)
+- [Notes](#notes)
+- [License](#license)
 
 ---
 
-## **1. Navigate to the Secure Directory**
+## Features
+
+- User registration and login with password hashing (bcrypt)
+- Session management with secure cookies
+- CSRF protection on all forms
+- Create, edit, delete, view, and search personal notes
+- Notes are user-specific and protected by authorization checks
+- Simple search functionality for user's notes
+- Logging of important application events
+
+---
+
+## Security Mitigations
+
+This application implements several security measures:
+
+1. **Password Security**
+   - Passwords are hashed using **bcrypt** before storing in the database.
+   - Input validation ensures minimum password length and proper username format.
+
+2. **Session Security**
+   - Cookies are `HttpOnly` to prevent JavaScript access.
+   - `Secure` flag ensures cookies are sent only over HTTPS.
+   - `SameSite=Lax` to mitigate CSRF risks.
+   - Sessions expire after 30 minutes of inactivity.
+
+3. **CSRF Protection**
+   - All forms are protected with **Flask-WTF CSRF tokens**.
+   - Tokens remain valid for the session lifetime.
+
+4. **Web Security Headers**
+   - `X-Frame-Options: DENY` → Prevents clickjacking.
+   - `X-Content-Type-Options: nosniff` → Prevents MIME-type confusion.
+   - `Strict-Transport-Security` → Enforces HTTPS in production.
+   - `Referrer-Policy: no-referrer` → No URL leakage.
+   - `Permissions-Policy` → Restricts access to browser features.
+   - `Content-Security-Policy` → Restricts loaded resources to self only.
+
+5. **Database Security**
+   - SQLite database uses foreign key constraints.
+   - Parameterized queries prevent SQL injection.
+   - Singleton pattern ensures single DB connection to avoid concurrency issues.
+
+---
+
+## Requirements
+
+- Python 3.10+
+- Flask
+- Flask-WTF
+- bcrypt
+- SQLite3
+- Optional: `virtualenv` for isolated environment
+
+---
+
+## Setup Instructions
+
+1. **Clone the repository**
 
 ```bash
-cd secure
-
+git clone <your-repo-url>
+cd <your-repo-folder>
