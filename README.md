@@ -78,6 +78,21 @@ This application implements several security measures:
 
 1. **Clone the repository**
 
-```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+bash
+
+- git clone <your-repo-url>
+- cd <your-repo-folder>
+
+2. **Run**
+- cd secure
+- venv should be auto but if not enter venv\Scripts\activate
+- python ./app.py will start the url for app
+- login etc
+
+## Test setup 
+- open new terminal
+- enter  python -m unittest secure.tests.test_app
+- Will start FireFox automatic testing 
+
+
+
