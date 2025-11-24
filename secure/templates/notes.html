@@ -28,6 +28,8 @@
   {% endfor %}
 </ul>
 
+<!-- Flash messages -->
+<div id="flash-messages">
 {% with messages = get_flashed_messages() %}
   {% if messages %}
     <ul style="color:green;">
@@ -37,5 +39,7 @@
     </ul>
   {% endif %}
 {% endwith %}
+</div>
+
 </body>
 </html>

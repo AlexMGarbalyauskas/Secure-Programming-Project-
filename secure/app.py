@@ -32,7 +32,7 @@ app.config.update({
 
     # Ensure cookies are only sent over HTTPS in production.
     # For local dev, you can set this to False, but in real deployments it MUST be True.
-    "SESSION_COOKIE_SECURE": True,
+    "SESSION_COOKIE_SECURE": False,
 
     # Restrict cookies to same-site requests, reducing CSRF risk.
     "SESSION_COOKIE_SAMESITE": "Lax",
@@ -57,16 +57,24 @@ csrf = CSRFProtect(app)
 #3
 # Security headers applied to all responses.
 @app.after_request
+
 def set_security_headers(response):
+
+    
     # Prevent clickjacking by disallowing the app to be embedded in iframes.
     response.headers["X-Frame-Options"] = "DENY"
 
     # Stop browsers from MIME-sniffing responses (prevents content-type confusion attacks).
     response.headers["X-Content-Type-Options"] = "nosniff"
 
-    # Enforce HTTPS with HSTS (HTTP Strict Transport Security).
-    # Once enabled, browsers will only connect via HTTPS for 1 year.
-    response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
+
+     # Disable HSTS in development (since you're using HTTP, not HTTPS)
+    if app.debug or os.environ.get("FLASK_ENV") == "development":
+        response.headers["Strict-Transport-Security"] = "max-age=0"
+    else:
+         # Enforce HTTPS with HSTS (HTTP Strict Transport Security).
+         # Once enabled, browsers will only connect via HTTPS for 1 year.
+        response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
 
     # Prevent referrer leakage (no sensitive URLs passed to external sites).
     response.headers["Referrer-Policy"] = "no-referrer"

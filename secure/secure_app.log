@@ -2157,3 +2157,215 @@
 2025-11-23 14:06:24,195 - INFO - 127.0.0.1 - - [23/Nov/2025 14:06:24] "GET /notes HTTP/1.1" 200 -
 2025-11-23 14:07:28,606 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\db.py', reloading
 2025-11-23 14:07:28,649 - INFO -  * Restarting with stat
+2025-11-24 11:08:11,586 - INFO - Database initialized successfully.
+2025-11-24 11:08:11,744 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.3.229.84:5002
+2025-11-24 11:08:11,744 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-24 11:08:11,746 - INFO -  * Restarting with stat
+2025-11-24 11:08:12,303 - INFO - Database initialized successfully.
+2025-11-24 11:08:12,351 - WARNING -  * Debugger is active!
+2025-11-24 11:08:12,357 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:08:32,467 - INFO - 127.0.0.1 - - [24/Nov/2025 11:08:32] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:08:32,694 - INFO - 127.0.0.1 - - [24/Nov/2025 11:08:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-24 11:08:34,470 - INFO - 127.0.0.1 - - [24/Nov/2025 11:08:34] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-24 11:08:34,499 - INFO - 127.0.0.1 - - [24/Nov/2025 11:08:34] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:08:34,620 - INFO - 127.0.0.1 - - [24/Nov/2025 11:08:34] "GET /login HTTP/1.1" 200 -
+2025-11-24 11:08:35,984 - INFO - 127.0.0.1 - - [24/Nov/2025 11:08:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-24 11:08:36,095 - INFO - 127.0.0.1 - - [24/Nov/2025 11:08:36] "GET /notes HTTP/1.1" 200 -
+2025-11-24 11:10:03,725 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\app.py', reloading
+2025-11-24 11:10:03,780 - INFO -  * Restarting with stat
+2025-11-24 11:10:04,598 - INFO - Database initialized successfully.
+2025-11-24 11:22:04,812 - INFO - Database initialized successfully.
+2025-11-24 11:22:04,941 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.3.229.84:5002
+2025-11-24 11:22:04,941 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-24 11:22:04,945 - INFO -  * Restarting with stat
+2025-11-24 11:22:05,581 - INFO - Database initialized successfully.
+2025-11-24 11:22:05,621 - WARNING -  * Debugger is active!
+2025-11-24 11:22:05,632 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:22:33,086 - INFO - 127.0.0.1 - - [24/Nov/2025 11:22:33] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:22:33,405 - INFO - 127.0.0.1 - - [24/Nov/2025 11:22:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-24 11:22:34,570 - INFO - 127.0.0.1 - - [24/Nov/2025 11:22:34] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-24 11:22:34,587 - INFO - 127.0.0.1 - - [24/Nov/2025 11:22:34] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:22:34,664 - INFO - 127.0.0.1 - - [24/Nov/2025 11:22:34] "GET /login HTTP/1.1" 200 -
+2025-11-24 11:22:35,751 - INFO - 127.0.0.1 - - [24/Nov/2025 11:22:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-24 11:22:35,787 - INFO - 127.0.0.1 - - [24/Nov/2025 11:22:35] "GET /notes HTTP/1.1" 200 -
+2025-11-24 11:26:50,315 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:26:50,427 - INFO -  * Restarting with stat
+2025-11-24 11:26:51,058 - INFO - Database initialized successfully.
+2025-11-24 11:26:51,099 - WARNING -  * Debugger is active!
+2025-11-24 11:26:51,104 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:27:21,398 - INFO - 127.0.0.1 - - [24/Nov/2025 11:27:21] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:27:21,629 - INFO - 127.0.0.1 - - [24/Nov/2025 11:27:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-24 11:27:22,707 - INFO - 127.0.0.1 - - [24/Nov/2025 11:27:22] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-24 11:27:22,719 - INFO - 127.0.0.1 - - [24/Nov/2025 11:27:22] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:27:22,809 - INFO - 127.0.0.1 - - [24/Nov/2025 11:27:22] "GET /login HTTP/1.1" 200 -
+2025-11-24 11:27:23,897 - INFO - 127.0.0.1 - - [24/Nov/2025 11:27:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-24 11:27:23,938 - INFO - 127.0.0.1 - - [24/Nov/2025 11:27:23] "GET /notes HTTP/1.1" 200 -
+2025-11-24 11:28:40,250 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:28:40,313 - INFO -  * Restarting with stat
+2025-11-24 11:28:40,960 - INFO - Database initialized successfully.
+2025-11-24 11:28:40,999 - WARNING -  * Debugger is active!
+2025-11-24 11:28:41,006 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:28:56,636 - INFO - 127.0.0.1 - - [24/Nov/2025 11:28:56] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:28:56,895 - INFO - 127.0.0.1 - - [24/Nov/2025 11:28:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-24 11:28:57,867 - INFO - 127.0.0.1 - - [24/Nov/2025 11:28:57] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-24 11:28:57,887 - INFO - 127.0.0.1 - - [24/Nov/2025 11:28:57] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:28:57,982 - INFO - 127.0.0.1 - - [24/Nov/2025 11:28:57] "GET /login HTTP/1.1" 200 -
+2025-11-24 11:28:58,980 - INFO - 127.0.0.1 - - [24/Nov/2025 11:28:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-24 11:28:59,027 - INFO - 127.0.0.1 - - [24/Nov/2025 11:28:59] "GET /notes HTTP/1.1" 200 -
+2025-11-24 11:31:33,964 - INFO - 127.0.0.1 - - [24/Nov/2025 11:31:33] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:31:34,200 - INFO - 127.0.0.1 - - [24/Nov/2025 11:31:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-24 11:31:35,327 - INFO - 127.0.0.1 - - [24/Nov/2025 11:31:35] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-24 11:31:35,349 - INFO - 127.0.0.1 - - [24/Nov/2025 11:31:35] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:31:35,451 - INFO - 127.0.0.1 - - [24/Nov/2025 11:31:35] "GET /login HTTP/1.1" 200 -
+2025-11-24 11:31:36,560 - INFO - 127.0.0.1 - - [24/Nov/2025 11:31:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-24 11:31:36,579 - INFO - 127.0.0.1 - - [24/Nov/2025 11:31:36] "GET /notes HTTP/1.1" 200 -
+2025-11-24 11:35:41,078 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:35:41,125 - INFO -  * Restarting with stat
+2025-11-24 11:35:41,715 - INFO - Database initialized successfully.
+2025-11-24 11:35:41,772 - WARNING -  * Debugger is active!
+2025-11-24 11:35:41,780 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:36:53,289 - INFO - 127.0.0.1 - - [24/Nov/2025 11:36:53] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:36:53,530 - INFO - 127.0.0.1 - - [24/Nov/2025 11:36:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-24 11:36:54,719 - INFO - 127.0.0.1 - - [24/Nov/2025 11:36:54] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-24 11:36:54,742 - INFO - 127.0.0.1 - - [24/Nov/2025 11:36:54] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:36:54,836 - INFO - 127.0.0.1 - - [24/Nov/2025 11:36:54] "GET /login HTTP/1.1" 200 -
+2025-11-24 11:36:55,946 - INFO - 127.0.0.1 - - [24/Nov/2025 11:36:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-24 11:36:56,018 - INFO - 127.0.0.1 - - [24/Nov/2025 11:36:56] "GET /notes HTTP/1.1" 200 -
+2025-11-24 11:38:10,045 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:38:10,159 - INFO -  * Restarting with stat
+2025-11-24 11:38:11,482 - INFO - Database initialized successfully.
+2025-11-24 11:38:11,571 - WARNING -  * Debugger is active!
+2025-11-24 11:38:11,579 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:38:31,036 - INFO - 127.0.0.1 - - [24/Nov/2025 11:38:31] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:38:31,331 - INFO - 127.0.0.1 - - [24/Nov/2025 11:38:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-24 11:38:32,255 - INFO - 127.0.0.1 - - [24/Nov/2025 11:38:32] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-24 11:38:32,281 - INFO - 127.0.0.1 - - [24/Nov/2025 11:38:32] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:38:32,380 - INFO - 127.0.0.1 - - [24/Nov/2025 11:38:32] "GET /login HTTP/1.1" 200 -
+2025-11-24 11:38:33,523 - INFO - 127.0.0.1 - - [24/Nov/2025 11:38:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-24 11:38:33,564 - INFO - 127.0.0.1 - - [24/Nov/2025 11:38:33] "GET /notes HTTP/1.1" 200 -
+2025-11-24 11:40:20,204 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:40:20,281 - INFO -  * Restarting with stat
+2025-11-24 11:40:21,321 - INFO - Database initialized successfully.
+2025-11-24 11:40:21,405 - WARNING -  * Debugger is active!
+2025-11-24 11:40:21,418 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:40:41,458 - INFO - 127.0.0.1 - - [24/Nov/2025 11:40:41] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:40:41,665 - INFO - 127.0.0.1 - - [24/Nov/2025 11:40:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-24 11:40:42,752 - INFO - 127.0.0.1 - - [24/Nov/2025 11:40:42] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-24 11:40:42,769 - INFO - 127.0.0.1 - - [24/Nov/2025 11:40:42] "GET /register HTTP/1.1" 200 -
+2025-11-24 11:40:42,882 - INFO - 127.0.0.1 - - [24/Nov/2025 11:40:42] "GET /login HTTP/1.1" 200 -
+2025-11-24 11:40:44,080 - INFO - 127.0.0.1 - - [24/Nov/2025 11:40:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-24 11:40:44,185 - INFO - 127.0.0.1 - - [24/Nov/2025 11:40:44] "GET /notes HTTP/1.1" 200 -
+2025-11-24 11:40:44,274 - INFO - 127.0.0.1 - - [24/Nov/2025 11:40:44] "GET /new_note HTTP/1.1" 200 -
+2025-11-24 11:40:44,707 - INFO - 127.0.0.1 - - [24/Nov/2025 11:40:44] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-24 11:40:44,719 - INFO - 127.0.0.1 - - [24/Nov/2025 11:40:44] "GET /notes HTTP/1.1" 200 -
+2025-11-24 11:41:00,225 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:00,370 - INFO -  * Restarting with stat
+2025-11-24 11:41:00,895 - INFO - Database initialized successfully.
+2025-11-24 11:41:00,933 - WARNING -  * Debugger is active!
+2025-11-24 11:41:00,936 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:41:09,093 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:09,178 - INFO -  * Restarting with stat
+2025-11-24 11:41:09,707 - INFO - Database initialized successfully.
+2025-11-24 11:41:09,753 - WARNING -  * Debugger is active!
+2025-11-24 11:41:09,754 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:41:12,822 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:12,882 - INFO -  * Restarting with stat
+2025-11-24 11:41:13,478 - INFO - Database initialized successfully.
+2025-11-24 11:41:13,540 - WARNING -  * Debugger is active!
+2025-11-24 11:41:13,544 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:41:15,610 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:15,705 - INFO -  * Restarting with stat
+2025-11-24 11:41:16,271 - INFO - Database initialized successfully.
+2025-11-24 11:41:16,302 - WARNING -  * Debugger is active!
+2025-11-24 11:41:16,304 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:41:21,427 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:21,496 - INFO -  * Restarting with stat
+2025-11-24 11:41:22,135 - INFO - Database initialized successfully.
+2025-11-24 11:41:22,178 - WARNING -  * Debugger is active!
+2025-11-24 11:41:22,178 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:41:23,225 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:23,350 - INFO -  * Restarting with stat
+2025-11-24 11:41:23,953 - INFO - Database initialized successfully.
+2025-11-24 11:41:23,992 - WARNING -  * Debugger is active!
+2025-11-24 11:41:23,999 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:41:30,104 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:30,208 - INFO -  * Restarting with stat
+2025-11-24 11:41:30,875 - INFO - Database initialized successfully.
+2025-11-24 11:41:30,924 - WARNING -  * Debugger is active!
+2025-11-24 11:41:30,930 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:41:34,008 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:34,105 - INFO -  * Restarting with stat
+2025-11-24 11:41:34,682 - INFO - Database initialized successfully.
+2025-11-24 11:41:34,724 - WARNING -  * Debugger is active!
+2025-11-24 11:41:34,728 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:41:37,787 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:37,879 - INFO -  * Restarting with stat
+2025-11-24 11:41:38,389 - INFO - Database initialized successfully.
+2025-11-24 11:41:38,424 - WARNING -  * Debugger is active!
+2025-11-24 11:41:38,428 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:41:44,527 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:44,609 - INFO -  * Restarting with stat
+2025-11-24 11:41:45,212 - INFO - Database initialized successfully.
+2025-11-24 11:41:45,255 - WARNING -  * Debugger is active!
+2025-11-24 11:41:45,259 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:41:47,303 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:47,376 - INFO -  * Restarting with stat
+2025-11-24 11:41:47,926 - INFO - Database initialized successfully.
+2025-11-24 11:41:47,983 - WARNING -  * Debugger is active!
+2025-11-24 11:41:47,990 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:41:51,078 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:51,139 - INFO -  * Restarting with stat
+2025-11-24 11:41:51,642 - INFO - Database initialized successfully.
+2025-11-24 11:41:51,681 - WARNING -  * Debugger is active!
+2025-11-24 11:41:51,685 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:41:55,777 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:55,860 - INFO -  * Restarting with stat
+2025-11-24 11:41:56,414 - INFO - Database initialized successfully.
+2025-11-24 11:41:56,467 - WARNING -  * Debugger is active!
+2025-11-24 11:41:56,476 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:41:58,542 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:41:58,636 - INFO -  * Restarting with stat
+2025-11-24 11:41:59,215 - INFO - Database initialized successfully.
+2025-11-24 11:41:59,247 - WARNING -  * Debugger is active!
+2025-11-24 11:41:59,252 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:42:03,333 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:42:03,425 - INFO -  * Restarting with stat
+2025-11-24 11:42:03,965 - INFO - Database initialized successfully.
+2025-11-24 11:42:04,008 - WARNING -  * Debugger is active!
+2025-11-24 11:42:04,013 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:45:49,400 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:45:49,491 - INFO -  * Restarting with stat
+2025-11-24 11:45:50,068 - INFO - Database initialized successfully.
+2025-11-24 11:45:50,110 - WARNING -  * Debugger is active!
+2025-11-24 11:45:50,120 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:45:51,156 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:45:51,217 - INFO -  * Restarting with stat
+2025-11-24 11:45:51,887 - INFO - Database initialized successfully.
+2025-11-24 11:45:51,924 - WARNING -  * Debugger is active!
+2025-11-24 11:45:51,928 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:45:57,043 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:45:57,148 - INFO -  * Restarting with stat
+2025-11-24 11:45:57,789 - INFO - Database initialized successfully.
+2025-11-24 11:45:57,853 - WARNING -  * Debugger is active!
+2025-11-24 11:45:57,857 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:45:59,903 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:45:59,966 - INFO -  * Restarting with stat
+2025-11-24 11:46:00,540 - INFO - Database initialized successfully.
+2025-11-24 11:46:00,573 - WARNING -  * Debugger is active!
+2025-11-24 11:46:00,577 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:46:08,725 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:46:08,799 - INFO -  * Restarting with stat
+2025-11-24 11:46:09,342 - INFO - Database initialized successfully.
+2025-11-24 11:46:09,380 - WARNING -  * Debugger is active!
+2025-11-24 11:46:09,380 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 11:46:10,407 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\tests\\test_app.py', reloading
+2025-11-24 11:46:10,470 - INFO -  * Restarting with stat
+2025-11-24 11:46:10,964 - INFO - Database initialized successfully.
+2025-11-24 11:46:10,993 - WARNING -  * Debugger is active!
+2025-11-24 11:46:11,006 - INFO -  * Debugger PIN: 692-888-430

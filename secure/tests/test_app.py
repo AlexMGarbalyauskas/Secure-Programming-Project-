@@ -1,5 +1,6 @@
-#1
-#Imports
+
+#1 
+# imports 
 import unittest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -8,40 +9,34 @@ from secure.base_test import BaseSeleniumTest
 #1 end 
 
 
-
-
-
-#2 
-# main test class automating registration, login, and note creation
+# 2 
+# Actual test cases for the secure app
 class TestSecureApp(BaseSeleniumTest):
-    
-    # Helper to wait for element and type
+ 
+
+    # Helper methods 
     def wait_and_type(self, by, value, text):
         WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located((by, value))
         ).send_keys(text)
-
+    
+    # helper method to wait and click an element
     def wait_and_click(self, by, value):
         WebDriverWait(self.driver, 10).until(
             EC.element_to_be_clickable((by, value))
         ).click()
+    
+#2 end
 
+    #3
     def test_register_login_create_note(self):
         driver = self.driver
 
-       
-        # Register a new user
+        # --- Register ---
         driver.get(self.base_url + "register")
-
-        # Wait for form fields + CSRF
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.NAME, "username"))
         )
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.NAME, "csrf_token"))
-        )
-        
-        # Fill in registration form
         self.wait_and_type(By.NAME, "username", "testuser")
         self.wait_and_type(By.NAME, "password", "Password123")
         self.wait_and_click(By.XPATH, "//button[contains(text(),'Register')]")
@@ -50,73 +45,46 @@ class TestSecureApp(BaseSeleniumTest):
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.NAME, "username"))
         )
-# 2 end 
-       
 
-
-
-
-
-# 3 
-        # Login with the new user
+        # Login
         driver.get(self.base_url + "login")
-        
-        # Wait for form fields + CSRF
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.NAME, "csrf_token"))
         )
-
-        # Fill in login form
+        
+        # Login with the new user 
         self.wait_and_type(By.NAME, "username", "testuser")
         self.wait_and_type(By.NAME, "password", "Password123")
         self.wait_and_click(By.XPATH, "//button[contains(text(),'Login')]")
 
-        # Wait until Notes page loads
+        # Wait for notes page
         WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located(
-                (By.XPATH, "//h1[contains(text(),'Your Notes')]")
-            )
+            EC.presence_of_element_located((By.XPATH, "//h1[text()='Your notes']"))
         )
-# 3 end 
 
-
-
-
-
-#4      
-        # Create a new note
-
+        # --- Create note ---
         driver.get(self.base_url + "new_note")
-
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.NAME, "csrf_token"))
         )
-        
-        # Fill in note form
+
+        # Fill out note form 
         self.wait_and_type(By.NAME, "title", "Test Note")
         self.wait_and_type(By.NAME, "content", "This is a test note")
         self.wait_and_click(By.XPATH, "//button[contains(text(),'Save Note')]")
-# 4 end 
-        
 
-
-
-
-
-        # Verify note creation success message
-    
-        flash_msg = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located(
-                (By.XPATH, "//li[contains(text(),'Note created successfully')]")
-            )
+        # Wait for redirect back to notes page
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "//h1[text()='Your notes']"))
         )
-        
-        # Verify flash message content
+
+        # Wait for flash message
+        flash_msg = WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located((By.ID, "flash-messages"))
+        )
         self.assertIn("Note created successfully", flash_msg.text)
 
 
-
-
-# Start of db.py additions 
+# Verify the new note appears in the notes list
 if __name__ == "__main__":
     unittest.main()

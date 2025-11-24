@@ -9,7 +9,7 @@
 
 {% with messages = get_flashed_messages() %}
   {% if messages %}
-    <ul style="color:red;">
+    <ul id="flash-messages" style="color:red;">
       {% for message in messages %}
         <li>{{ message }}</li>
       {% endfor %}
@@ -17,13 +17,16 @@
   {% endif %}
 {% endwith %}
 
-<!-- CRSF -->
 <form method="POST" action="/register">
+    <!-- CSRF token -->
     <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
     <label>Username</label><br>
     <input name="username" required><br><br>
+
     <label>Password</label><br>
     <input type="password" name="password" required><br><br>
+
     <button type="submit">Register</button>
 </form>
 
