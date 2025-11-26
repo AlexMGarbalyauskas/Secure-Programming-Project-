@@ -32,7 +32,7 @@ class TestSecureApp(BaseSeleniumTest):
     def test_register_login_create_note(self):
         driver = self.driver
 
-        # --- Register ---
+        # Register 
         driver.get(self.base_url + "register")
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.NAME, "username"))
@@ -62,7 +62,7 @@ class TestSecureApp(BaseSeleniumTest):
             EC.presence_of_element_located((By.XPATH, "//h1[text()='Your notes']"))
         )
 
-        # --- Create note ---
+        # Create note
         driver.get(self.base_url + "new_note")
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.NAME, "csrf_token"))

@@ -2369,3 +2369,106 @@
 2025-11-24 11:46:10,964 - INFO - Database initialized successfully.
 2025-11-24 11:46:10,993 - WARNING -  * Debugger is active!
 2025-11-24 11:46:11,006 - INFO -  * Debugger PIN: 692-888-430
+2025-11-24 12:54:20,365 - INFO - Database initialized successfully.
+2025-11-24 12:54:20,538 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.3.229.84:5002
+2025-11-24 12:54:20,538 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-24 12:54:20,540 - INFO -  * Restarting with stat
+2025-11-24 12:54:21,102 - INFO - Database initialized successfully.
+2025-11-24 12:54:21,148 - WARNING -  * Debugger is active!
+2025-11-24 12:54:21,152 - INFO -  * Debugger PIN: 346-272-233
+2025-11-24 12:54:24,222 - INFO - 127.0.0.1 - - [24/Nov/2025 12:54:24] "GET / HTTP/1.1" 200 -
+2025-11-24 12:54:24,521 - INFO - 127.0.0.1 - - [24/Nov/2025 12:54:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-24 12:54:27,215 - INFO - 127.0.0.1 - - [24/Nov/2025 12:54:27] "GET /login HTTP/1.1" 200 -
+2025-11-24 12:54:34,443 - INFO - 127.0.0.1 - - [24/Nov/2025 12:54:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-24 12:54:34,516 - INFO - 127.0.0.1 - - [24/Nov/2025 12:54:34] "GET /notes HTTP/1.1" 200 -
+2025-11-24 12:54:36,893 - INFO - 127.0.0.1 - - [24/Nov/2025 12:54:36] "GET /new_note HTTP/1.1" 200 -
+2025-11-24 12:55:31,582 - INFO - 127.0.0.1 - - [24/Nov/2025 12:55:31] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-24 12:55:31,600 - INFO - 127.0.0.1 - - [24/Nov/2025 12:55:31] "GET /new_note HTTP/1.1" 200 -
+2025-11-24 12:55:34,050 - INFO - 127.0.0.1 - - [24/Nov/2025 12:55:34] "GET /notes HTTP/1.1" 200 -
+2025-11-24 12:55:36,971 - INFO - 127.0.0.1 - - [24/Nov/2025 12:55:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-24 12:55:37,005 - INFO - 127.0.0.1 - - [24/Nov/2025 12:55:37] "GET /login HTTP/1.1" 200 -
+2025-11-24 12:55:40,401 - INFO - 127.0.0.1 - - [24/Nov/2025 12:55:40] "GET /login HTTP/1.1" 200 -
+2025-11-24 12:55:45,358 - INFO - 127.0.0.1 - - [24/Nov/2025 12:55:45] "[32mGET /notes HTTP/1.1[0m" 302 -
+2025-11-24 12:55:45,390 - INFO - 127.0.0.1 - - [24/Nov/2025 12:55:45] "GET /login HTTP/1.1" 200 -
+2025-11-24 12:55:53,500 - INFO - 127.0.0.1 - - [24/Nov/2025 12:55:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-24 12:56:09,974 - INFO - 127.0.0.1 - - [24/Nov/2025 12:56:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-24 12:56:09,989 - INFO - 127.0.0.1 - - [24/Nov/2025 12:56:09] "GET /notes HTTP/1.1" 200 -
+2025-11-24 12:56:10,081 - INFO - 127.0.0.1 - - [24/Nov/2025 12:56:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-24 12:56:28,277 - INFO - 127.0.0.1 - - [24/Nov/2025 12:56:28] "GET /new_note HTTP/1.1" 200 -
+2025-11-24 12:56:28,499 - INFO - 127.0.0.1 - - [24/Nov/2025 12:56:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-24 12:56:39,168 - INFO - 127.0.0.1 - - [24/Nov/2025 12:56:39] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-24 12:56:39,183 - INFO - 127.0.0.1 - - [24/Nov/2025 12:56:39] "GET /notes HTTP/1.1" 200 -
+2025-11-24 12:56:39,392 - INFO - 127.0.0.1 - - [24/Nov/2025 12:56:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-24 12:57:20,850 - INFO - 127.0.0.1 - - [24/Nov/2025 12:57:20] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-24 12:58:25,062 - INFO - 127.0.0.1 - - [24/Nov/2025 12:58:25] "GET /notes HTTP/1.1" 200 -
+2025-11-24 12:58:25,144 - INFO - 127.0.0.1 - - [24/Nov/2025 12:58:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-24 12:59:02,840 - INFO - 127.0.0.1 - - [24/Nov/2025 12:59:02] "GET /view_note/21 HTTP/1.1" 200 -
+2025-11-24 12:59:04,104 - INFO - 127.0.0.1 - - [24/Nov/2025 12:59:04] "GET /notes HTTP/1.1" 200 -
+2025-11-24 12:59:05,086 - INFO - 127.0.0.1 - - [24/Nov/2025 12:59:05] "GET /edit_note/21 HTTP/1.1" 200 -
+2025-11-24 12:59:06,360 - INFO - 127.0.0.1 - - [24/Nov/2025 12:59:06] "GET /notes HTTP/1.1" 200 -
+2025-11-26 13:06:05,584 - INFO - Database initialized successfully.
+2025-11-26 13:06:05,674 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.16:5002
+2025-11-26 13:06:05,674 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-26 13:06:05,676 - INFO -  * Restarting with stat
+2025-11-26 13:06:06,066 - INFO - Database initialized successfully.
+2025-11-26 13:06:06,105 - WARNING -  * Debugger is active!
+2025-11-26 13:06:06,111 - INFO -  * Debugger PIN: 138-277-718
+2025-11-26 13:06:07,631 - INFO - 127.0.0.1 - - [26/Nov/2025 13:06:07] "GET / HTTP/1.1" 200 -
+2025-11-26 13:06:07,908 - INFO - 127.0.0.1 - - [26/Nov/2025 13:06:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-26 13:06:15,793 - INFO - 127.0.0.1 - - [26/Nov/2025 13:06:15] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-26 13:06:17,188 - INFO - 127.0.0.1 - - [26/Nov/2025 13:06:17] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-11-26 13:06:17,234 - INFO - 127.0.0.1 - - [26/Nov/2025 13:06:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-26 13:06:19,055 - INFO - 127.0.0.1 - - [26/Nov/2025 13:06:19] "GET / HTTP/1.1" 200 -
+2025-11-26 13:06:19,091 - INFO - 127.0.0.1 - - [26/Nov/2025 13:06:19] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-26 13:06:21,376 - INFO - 127.0.0.1 - - [26/Nov/2025 13:06:21] "GET /login HTTP/1.1" 200 -
+2025-11-26 13:06:21,629 - INFO - 127.0.0.1 - - [26/Nov/2025 13:06:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-26 13:06:27,117 - INFO - 127.0.0.1 - - [26/Nov/2025 13:06:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-26 13:06:27,152 - INFO - 127.0.0.1 - - [26/Nov/2025 13:06:27] "GET /notes HTTP/1.1" 200 -
+2025-11-26 13:06:27,302 - INFO - 127.0.0.1 - - [26/Nov/2025 13:06:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-26 13:08:10,562 - INFO - 127.0.0.1 - - [26/Nov/2025 13:08:10] "GET /login HTTP/1.1" 200 -
+2025-11-26 13:16:19,989 - INFO -  * Detected change in 'C:\\Users\\smart\\OneDrive\\Documents\\College\\Year 4\\semester-1\\secure-programing\\Project\\Secure-Programming-Project\\secure_project\\secure\\app.py', reloading
+2025-11-26 13:16:20,106 - INFO -  * Restarting with stat
+2025-11-26 13:16:25,388 - INFO - Database initialized successfully.
+2025-11-26 13:16:25,471 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.16:5002
+2025-11-26 13:16:25,471 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-26 13:16:25,474 - INFO -  * Restarting with stat
+2025-11-26 13:16:25,858 - INFO - Database initialized successfully.
+2025-11-26 13:16:25,896 - WARNING -  * Debugger is active!
+2025-11-26 13:16:25,910 - INFO -  * Debugger PIN: 138-277-718
+2025-11-26 13:16:31,394 - INFO - 127.0.0.1 - - [26/Nov/2025 13:16:31] "GET / HTTP/1.1" 200 -
+2025-11-26 13:16:33,861 - INFO - 127.0.0.1 - - [26/Nov/2025 13:16:33] "GET /login HTTP/1.1" 200 -
+2025-11-26 13:16:40,741 - INFO - 127.0.0.1 - - [26/Nov/2025 13:16:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-26 13:16:44,450 - INFO - 127.0.0.1 - - [26/Nov/2025 13:16:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-26 13:16:44,479 - INFO - 127.0.0.1 - - [26/Nov/2025 13:16:44] "GET /notes HTTP/1.1" 200 -
+2025-11-26 13:16:44,536 - INFO - 127.0.0.1 - - [26/Nov/2025 13:16:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-26 13:17:15,312 - INFO - 127.0.0.1 - - [26/Nov/2025 13:17:15] "GET /notes HTTP/1.1" 200 -
+2025-11-26 13:17:15,364 - INFO - 127.0.0.1 - - [26/Nov/2025 13:17:15] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-26 13:21:15,599 - INFO - Database initialized successfully.
+2025-11-26 13:21:15,664 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.16:5002
+2025-11-26 13:21:15,664 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-26 13:21:15,670 - INFO -  * Restarting with stat
+2025-11-26 13:21:16,219 - INFO - Database initialized successfully.
+2025-11-26 13:21:16,258 - WARNING -  * Debugger is active!
+2025-11-26 13:21:16,264 - INFO -  * Debugger PIN: 138-277-718
+2025-11-26 13:22:17,009 - INFO - 127.0.0.1 - - [26/Nov/2025 13:22:17] "GET /register HTTP/1.1" 200 -
+2025-11-26 13:22:17,147 - INFO - 127.0.0.1 - - [26/Nov/2025 13:22:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-26 13:22:18,063 - INFO - 127.0.0.1 - - [26/Nov/2025 13:22:18] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-11-26 13:22:18,082 - INFO - 127.0.0.1 - - [26/Nov/2025 13:22:18] "GET /register HTTP/1.1" 200 -
+2025-11-26 13:22:18,175 - INFO - 127.0.0.1 - - [26/Nov/2025 13:22:18] "GET /login HTTP/1.1" 200 -
+2025-11-26 13:22:18,655 - INFO - 127.0.0.1 - - [26/Nov/2025 13:22:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-26 13:22:18,699 - INFO - 127.0.0.1 - - [26/Nov/2025 13:22:18] "GET /notes HTTP/1.1" 200 -
+2025-11-26 13:22:18,839 - INFO - 127.0.0.1 - - [26/Nov/2025 13:22:18] "GET /new_note HTTP/1.1" 200 -
+2025-11-26 13:22:19,338 - INFO - 127.0.0.1 - - [26/Nov/2025 13:22:19] "[32mPOST /new_note HTTP/1.1[0m" 302 -
+2025-11-26 13:22:19,362 - INFO - 127.0.0.1 - - [26/Nov/2025 13:22:19] "GET /notes HTTP/1.1" 200 -

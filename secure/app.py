@@ -1,4 +1,3 @@
-
 #1
 #imports 
 import os
@@ -6,6 +5,7 @@ import secrets
 from datetime import timedelta
 from flask import Flask, render_template, request, redirect, session, flash
 from flask_wtf import CSRFProtect
+from werkzeug.middleware.proxy_fix import ProxyFix  # Added for HTTPS proxy support
 from db import create_user, verify_user, get_notes, create_note, get_note_by_id, update_note, delete_note
 #1 end 
 
@@ -14,6 +14,10 @@ from db import create_user, verify_user, get_notes, create_note, get_note_by_id,
 
 # flask app
 app = Flask(__name__)
+
+# Trust proxy headers when deployed behind nginx/reverse proxies.
+# This ensures Flask correctly detects HTTPS and sets Secure cookies properly.
+app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
 # Secret key is critical for signing session cookies and CSRF tokens.
 # In production, we load it from environment variables for stability and security.
@@ -31,8 +35,8 @@ app.config.update({
     "SESSION_COOKIE_HTTPONLY": True,
 
     # Ensure cookies are only sent over HTTPS in production.
-    # For local dev, you can set this to False, but in real deployments it MUST be True.
-    "SESSION_COOKIE_SECURE": False,
+    # Automatically switches based on environment so Selenium still works in dev.
+    "SESSION_COOKIE_SECURE": False if (app.debug or os.environ.get("FLASK_ENV") == "development") else True,
 
     # Restrict cookies to same-site requests, reducing CSRF risk.
     "SESSION_COOKIE_SAMESITE": "Lax",
@@ -57,10 +61,8 @@ csrf = CSRFProtect(app)
 #3
 # Security headers applied to all responses.
 @app.after_request
-
 def set_security_headers(response):
 
-    
     # Prevent clickjacking by disallowing the app to be embedded in iframes.
     response.headers["X-Frame-Options"] = "DENY"
 
@@ -68,13 +70,17 @@ def set_security_headers(response):
     response.headers["X-Content-Type-Options"] = "nosniff"
 
 
-     # Disable HSTS in development (since you're using HTTP, not HTTPS)
+    # Disable HSTS in development (since you're using HTTP, not HTTPS)
     if app.debug or os.environ.get("FLASK_ENV") == "development":
         response.headers["Strict-Transport-Security"] = "max-age=0"
     else:
-         # Enforce HTTPS with HSTS (HTTP Strict Transport Security).
-         # Once enabled, browsers will only connect via HTTPS for 1 year.
-        response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
+        # Enforce HTTPS with HSTS (HTTP Strict Transport Security).
+        # Once enabled, browsers will only connect via HTTPS for 1 year.
+        # includeSubDomains: covers all subdomains
+        # preload: allows domain to be submitted to Chrome HSTS preload list
+        response.headers["Strict-Transport-Security"] = (
+            "max-age=31536000; includeSubDomains; preload"
+        )
 
     # Prevent referrer leakage (no sensitive URLs passed to external sites).
     response.headers["Referrer-Policy"] = "no-referrer"
@@ -93,26 +99,43 @@ def set_security_headers(response):
     # Block inline scripts/styles unless explicitly allowed
     # Prevent embedding external frames
     # Force upgrade of insecure requests
-    response.headers["Content-Security-Policy"] = (
-        "default-src 'self'; "
-        "base-uri 'self'; "
-        "object-src 'none'; "
-        "script-src 'self'; "
-        "style-src 'self'; "
-        "img-src 'self'; "
-        "font-src 'self'; "
-        "frame-ancestors 'none'; "
-        "form-action 'self'; "
-        "upgrade-insecure-requests"
-    )
+    #
+    # NOTE: During development we allow 'unsafe-inline' so existing inline styles
+    # and small front-end snippets used for testing (and by Selenium) are not blocked.
+    # In production you MUST remove 'unsafe-inline' and use nonces/hashes or external CSS.
+    if app.debug or os.environ.get("FLASK_ENV") == "development":
+        response.headers["Content-Security-Policy"] = (
+            "default-src 'self'; "
+            "base-uri 'self'; "
+            "object-src 'none'; "
+            "script-src 'self'; "
+            "style-src 'self' 'unsafe-inline'; "   # relaxed for dev only
+            "img-src 'self'; "
+            "font-src 'self'; "
+            "frame-ancestors 'none'; "
+            "form-action 'self'; "
+            "upgrade-insecure-requests"
+        )
+    else:
+        response.headers["Content-Security-Policy"] = (
+            "default-src 'self'; "
+            "base-uri 'self'; "
+            "object-src 'none'; "
+            "script-src 'self'; "
+            "style-src 'self'; "
+            "img-src 'self'; "
+            "font-src 'self'; "
+            "frame-ancestors 'none'; "
+            "form-action 'self'; "
+            "upgrade-insecure-requests"
+        )
 
     # Remove or neutralize server banner (e.g., Werkzeug/Flask version).
     # This prevents attackers from fingerprinting your stack.
     if "Server" in response.headers:
-
         del response.headers["Server"]
 
-        # Alternatively, you can set it to a generic value:
+    # Alternatively, you can set it to a generic value:
     response.headers["Server"] = " "
 
     return response
@@ -121,13 +144,9 @@ def set_security_headers(response):
 
 
 
-
-
-
 #4 
 # Routes
 @app.route("/")
-
 # index route 
 def index():
 
@@ -141,12 +160,8 @@ def index():
 
 
 
-
-
-
 # register route
 @app.route("/register", methods=["GET", "POST"])
-
 #  register function to handle user registration
 def register():
 
@@ -172,16 +187,12 @@ def register():
 
 
 
-
-
-
 # login route
 @app.route("/login", methods=["GET", "POST"])
-
 # login function to handle user login
 def login():
 
-# Check if form submitted 
+    # Check if form submitted 
     if request.method == "POST":
         username = request.form["username"].strip()
         password = request.form["password"].strip()
@@ -189,11 +200,13 @@ def login():
         # Verify credentials securely (db.py should check bcrypt hash).
         user_id = verify_user(username, password)
 
-# If valid, set session cookie with hardened settings.
+        # If valid, set session cookie with hardened settings.
         if user_id:
             # Store user_id in session (cookie is hardened above).
+            # DO NOT store the username in session or echo it back in flash messages,
+            # to avoid leaking the username in response payloads or analytics.
             session["user_id"] = user_id
-            flash(f"Welcome, {username}!")
+            flash("Welcome!")   # <-- removed username echo to avoid leaking it in responses
 
             return redirect("/notes")
         
@@ -210,11 +223,12 @@ def login():
 # logout route
 @app.route("/logout")
 def logout():
+
     # Clear session on logout to prevent reuse of stolen cookies.
     session.clear()
     flash("Logged out successfully")
 
-# Redirect to home page after logout
+    # Redirect to home page after logout
     return redirect("/login")
 
 
@@ -231,8 +245,8 @@ def notes():
     # Fetch notes belonging only to the logged-in user.
     notes_list = get_notes(session["user_id"])
 
-    return render_template("notes.html", notes=notes_list)
 
+    return render_template("notes.html", notes=notes_list)
 
 
 
@@ -271,10 +285,8 @@ def new_note():
 
 
 
-
 # edit note route
 @app.route("/edit_note/<int:note_id>", methods=["GET", "POST"])
-
 # def edit note to handle editing notes
 def edit_note(note_id):
 
@@ -297,12 +309,14 @@ def edit_note(note_id):
             flash("Title cannot be empty")
 
             return redirect(f"/edit_note/{note_id}")
+
         update_note(note_id, title, content)
         flash("Note updated successfully")
 
         return redirect("/notes")
     
     return render_template("edit_note.html", note=note)
+
 
 
 
@@ -371,12 +385,10 @@ def search():
 
 
 
-
-
 # Run the app
 if __name__ == "__main__":
     # Opens terminal URL for local testing
-    # app.config["SESSION_COOKIE_SECURE"] = False
+    # Session cookies stay non-secure in dev so Selenium continues working.
     url = "http://127.0.0.1:5002/"
     print(f"Flask app running! Open in browser: {url}")
     app.run(debug=True, host="0.0.0.0", port=5002)
