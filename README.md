@@ -1,6 +1,6 @@
 
 ## Project Overview
-aa
+
 This project is a **Flask-based Notes Web Application** created for the secure programming module.  
 It includes:
  
