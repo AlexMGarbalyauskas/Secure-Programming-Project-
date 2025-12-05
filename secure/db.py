@@ -78,6 +78,7 @@ class DatabaseManager:
 
 #7
 # Helper to get DB connection
+# prevent multiple connections
 def get_db_connection():
     # DatabaseManager singleton
     return DatabaseManager().get_connection()
@@ -111,7 +112,7 @@ def init_db():
         updated_at TEXT,
         FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
     )""")
-    # commit changes
+    # commited changes
     conn.commit()
     # log success
     logging.info("Database initialized successfully.")
@@ -129,6 +130,7 @@ init_db()
 
 # 9 
 # Validation helpers
+# prevent injection and ensure data integrity
 def valid_username(username):
     # Alphanumeric and underscores, 3-30 chars
     return re.fullmatch(r"[A-Za-z0-9_]{3,30}", username) is not None
@@ -149,6 +151,7 @@ def valid_note_title(title):
 
 #10 
 # User management
+# prevent injection and ensure data integrity
 def create_user(username, password):
     
     # Validate inputs
@@ -160,11 +163,13 @@ def create_user(username, password):
         raise ValueError("Password too short. Minimum 6 characters required.")
 
     # Hash password using bcrypt
+    # Prevents data exposure if DB compromised
     hashed_pw = bcrypt.hashpw(password.encode("utf-8"), bcrypt.gensalt())
 
     # connect to DB and insert user
     conn = get_db_connection()
-
+    
+    # Insert user securely
     try:
         conn.execute("INSERT INTO users (username, password) VALUES (?, ?)",
                      (username, hashed_pw.decode("utf-8")))
@@ -183,6 +188,7 @@ def create_user(username, password):
 
 #11 
 # Verify user credentials
+# prevent timing attacks by consistent response times
 def verify_user(username, password):
 
     # connect to DB
@@ -209,6 +215,7 @@ def verify_user(username, password):
 
 # 12 
 # Notes management
+# prevent injection and ensure data integrity
 def create_note(user_id, title, content):
     if not valid_note_title(title):
         # Validate note title
@@ -227,6 +234,8 @@ def create_note(user_id, title, content):
 # Fetch notes for a user
 def get_notes(user_id):
     conn = get_db_connection()
+
+    # Fetch notes securely
     return conn.execute(
         "SELECT id, title, created_at FROM notes WHERE user_id = ? ORDER BY created_at DESC",
         (user_id,)
@@ -236,6 +245,7 @@ def get_notes(user_id):
 
 
 # Fetch a single note by ID
+# prevent injection and ensure data integrity
 def get_note_by_id(note_id):
     conn = get_db_connection()
     return conn.execute("SELECT * FROM notes WHERE id = ?", (note_id,)).fetchone()
@@ -243,6 +253,7 @@ def get_note_by_id(note_id):
 
 
 #   Update a note
+# prevent injection and ensure data integrity
 def update_note(note_id, title, content):
 
     # Validate note title

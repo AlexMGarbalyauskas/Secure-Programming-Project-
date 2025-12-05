@@ -83,8 +83,13 @@ class TestSecureApp(BaseSeleniumTest):
             EC.visibility_of_element_located((By.ID, "flash-messages"))
         )
         self.assertIn("Note created successfully", flash_msg.text)
+#3 end 
 
 
+
+
+#4
 # Verify the new note appears in the notes list
 if __name__ == "__main__":
     unittest.main()
+# 4 end 

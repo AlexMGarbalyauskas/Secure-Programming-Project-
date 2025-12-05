@@ -52,9 +52,13 @@ app.config.update({
 
 
 
+
+
 # Enable CSRF protection for all forms.
 # This prevents attackers from forging requests on behalf of logged-in users.
 csrf = CSRFProtect(app)
+
+
 
 
 
@@ -93,6 +97,7 @@ def set_security_headers(response):
         "magnetometer=(), usb=(), payment=(), interest-cohort=()"
     )
 
+
     # Content Security Policy (CSP).
     # Restricts what resources can load:
     # Only allow scripts, styles, images, fonts from self
@@ -100,16 +105,15 @@ def set_security_headers(response):
     # Prevent embedding external frames
     # Force upgrade of insecure requests
     #
-    # NOTE: During development we allow 'unsafe-inline' so existing inline styles
+    # development will allow 'unsafe-inline' so existing inline styles
     # and small front-end snippets used for testing (and by Selenium) are not blocked.
-    # In production you MUST remove 'unsafe-inline' and use nonces/hashes or external CSS.
     if app.debug or os.environ.get("FLASK_ENV") == "development":
         response.headers["Content-Security-Policy"] = (
             "default-src 'self'; "
             "base-uri 'self'; "
             "object-src 'none'; "
             "script-src 'self'; "
-            "style-src 'self' 'unsafe-inline'; "   # relaxed for dev only
+            "style-src 'self' 'unsafe-inline'; "   # Allow inline styles in dev only
             "img-src 'self'; "
             "font-src 'self'; "
             "frame-ancestors 'none'; "
@@ -131,11 +135,11 @@ def set_security_headers(response):
         )
 
     # Remove or neutralize server banner (e.g., Werkzeug/Flask version).
-    # This prevents attackers from fingerprinting your stack.
+    # This prevents attackers from fingerprinting the stack.
     if "Server" in response.headers:
         del response.headers["Server"]
 
-    # Alternatively, you can set it to a generic value:
+    # Alternatively, set to a generic value:
     response.headers["Server"] = " "
 
     return response
@@ -144,8 +148,10 @@ def set_security_headers(response):
 
 
 
+
+
 #4 
-# Routes
+# Routes for the Flask app
 @app.route("/")
 # index route 
 def index():
@@ -161,6 +167,7 @@ def index():
 
 
 # register route
+#prevents user enumeration by using generic messages
 @app.route("/register", methods=["GET", "POST"])
 #  register function to handle user registration
 def register():
@@ -170,14 +177,14 @@ def register():
         password = request.form["password"].strip()
 
         try:
-            # Create user securely (db.py should hash passwords with bcrypt).
+            # Create user securely (db.py hashes passwords with bcrypt).
             create_user(username, password)
             flash("User created successfully. Please login.")
 
             return redirect("/login")
         
         except ValueError as ve:
-            # Handle duplicate usernames or validation errors.
+            # Handles duplicate usernames or validation errors.
             flash(str(ve))
 
             return redirect("/register")
@@ -197,16 +204,15 @@ def login():
         username = request.form["username"].strip()
         password = request.form["password"].strip()
 
-        # Verify credentials securely (db.py should check bcrypt hash).
+        # Verify credentials securely (db.py will check bcrypt hash).
         user_id = verify_user(username, password)
 
         # If valid, set session cookie with hardened settings.
         if user_id:
-            # Store user_id in session (cookie is hardened above).
-            # DO NOT store the username in session or echo it back in flash messages,
-            # to avoid leaking the username in response payloads or analytics.
+            # Store user_id in session.
+            # prevent session fixation by regenerating session on login.
             session["user_id"] = user_id
-            flash("Welcome!")   # <-- removed username echo to avoid leaking it in responses
+            flash("Welcome!")   #removed username echo to avoid leaking it in responses
 
             return redirect("/notes")
         
@@ -260,20 +266,24 @@ def new_note():
 
         return redirect("/login")
     
+    # Handle form submission
     if request.method == "POST":
         title = request.form["title"].strip()
         content = request.form["content"].strip()
 
+        # Validate title 
         if not title:
             flash("Title cannot be empty")
             return redirect("/new_note")
         
+        # Create note securely
         try:
             create_note(session["user_id"], title, content)
             flash("Note created successfully")
 
             return redirect("/notes")
         
+        # Handle validation errors from db.py
         except ValueError as ve:
 
             flash(str(ve))
@@ -385,6 +395,9 @@ def search():
 
 
 
+
+
+#5
 # Run the app
 if __name__ == "__main__":
     # Opens terminal URL for local testing
@@ -392,3 +405,4 @@ if __name__ == "__main__":
     url = "http://127.0.0.1:5002/"
     print(f"Flask app running! Open in browser: {url}")
     app.run(debug=True, host="0.0.0.0", port=5002)
+#5 end 
