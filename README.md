@@ -11,10 +11,7 @@ A secure Flask-based web application for creating, viewing, editing, and deletin
 - [Requirements](#requirements)
 - [Setup Instructions](#setup-instructions)
 - [Project Structure](#project-structure)
-- [Database](#database)
-- [Running the App](#running-the-app)
-- [Notes](#notes)
-- [License](#license)
+
 
 ---
 
@@ -93,6 +90,7 @@ bash
 - open new terminal
 - enter  python -m unittest secure.tests.test_app
 - Will start FireFox automatic testing 
+
 
 
 
